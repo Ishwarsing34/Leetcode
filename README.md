@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0136-single-number) |
 | [0179-largest-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0179-largest-number) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Greedy
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/Ishwarsing34/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Ishwarsing34/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
@@ -82,4 +85,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+## Counting
+|  |
+| ------- |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 <!---LeetCode Topics End-->
