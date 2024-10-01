@@ -8,9 +8,9 @@ public:
         {
             if(i%2 != 0)
             {
-                result[i] = result[i/2] + 1;
+                result[i] = result[i>>1] + 1;
             } else {
-                result[i] = result[i/2];
+                result[i] = result[i>>1];
             }
         }
 
