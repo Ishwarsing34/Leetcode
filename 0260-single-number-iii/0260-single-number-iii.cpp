@@ -1,31 +1,28 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        int n = nums.size();
+        long long xor_r = 0;
 
-        long xorr = 0;  // XOR of all elements
-        int b1 = 0, b2 = 0;  // To store the two unique numbers
-
-        // Step 1: XOR all elements, the result will be XOR of the two unique numbers
-        for (int i = 0; i < n; i++) {
-            xorr = xorr ^ nums[i];  // XOR all elements
+        for(int &num : nums)
+        {
+            xor_r ^= num;
         }
 
-        // Step 2: Find the rightmost set bit
-        int rightMost = xorr & (xorr - 1) ^ xorr;  // Change the way rightmost bit is calculated
+        //mask-> right most set  bit search krnar ata
 
-        // Step 3: Divide the numbers into two groups based on the rightmost set bit
-        b1 = 0; 
-        b2 = 0;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] & rightMost) {
-                b1 = b1 ^ nums[i];  // XOR numbers with the rightmost set bit
+        int mask = (xor_r) & (-xor_r);
+
+        int groupa = 0;
+        int groupb = 0;
+
+        for(int &num : nums){
+            if(num & mask) {
+                groupa ^= num;
             } else {
-                b2 = b2 ^ nums[i];  // XOR numbers without the rightmost set bit
+                groupb ^= num;
             }
         }
 
-        // Step 4: Return the two unique numbers
-        return {b1, b2};
+        return{groupa,groupb};
     }
 };
