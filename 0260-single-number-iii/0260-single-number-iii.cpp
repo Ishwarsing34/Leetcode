@@ -1,28 +1,29 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
+        
         long long xor_r = 0;
 
         for(int &num : nums)
         {
-            xor_r ^= num;
+            xor_r^=num;
         }
 
-        //mask-> right most set  bit search krnar ata
+        int grpA=0;
+        int grpB=0;
 
         int mask = (xor_r) & (-xor_r);
 
-        int groupa = 0;
-        int groupb = 0;
-
-        for(int &num : nums){
-            if(num & mask) {
-                groupa ^= num;
+        for(int i=0;i<nums.size();i++)
+        {
+            if(mask & (nums[i])){
+                grpA ^= nums[i];
             } else {
-                groupb ^= num;
+                grpB ^= nums[i];
             }
+            
         }
 
-        return{groupa,groupb};
+        return {grpA,grpB};
     }
 };
