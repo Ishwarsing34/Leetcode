@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Ishwarsing34/Leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/0260-single-number-iii) |
+| [0338-counting-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0338-counting-bits) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ishwarsing34/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Ishwarsing34/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 ## Math
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0338-counting-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0338-counting-bits) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 ## Memoization
 |  |
