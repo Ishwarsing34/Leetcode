@@ -4,7 +4,7 @@ public:
         if (head == NULL || head->next == NULL)
             return head;
 
-        ListNode *odd = head;
+        ListNode* odd = head;
         ListNode *even = head->next;
         ListNode *evenHead =head->next;
 
