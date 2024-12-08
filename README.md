@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0020-valid-parentheses) |
 | [0179-largest-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0179-largest-number) |
+| [0205-isomorphic-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0214-shortest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0567-permutation-in-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0567-permutation-in-string) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Ishwarsing34/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0205-isomorphic-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0432-all-oone-data-structure](https://github.com/Ishwarsing34/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
