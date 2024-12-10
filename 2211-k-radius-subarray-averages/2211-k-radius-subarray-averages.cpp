@@ -1,33 +1,43 @@
 class Solution {
 public:
     vector<int> getAverages(vector<int>& nums, int k) {
+        //using slidng window
         int n = nums.size();
-        vector<int> result(n, -1);
 
-        if (k == 0)
-            return nums;
+        if(k==0) return nums;
 
-        if (n < 2 * k + 1)
+        vector<int>result(n,-1);
+
+        if(n < 2*k+1) {
             return result;
 
-        vector<long long> pref(n, 0);
-        pref[0] = nums[0];
+        }
+       long long window = 0;
+        int left = 0;
+        int right = 2*k;
+        int i = k;
 
-        for (int i = 1; i < n; i++) {
-            pref[i] = pref[i - 1] + nums[i];
+        for(int i=left;i<=right;i++){
+            window += nums[i];
         }
 
-        for (int i = k; i <= n - k - 1; i++) {
-            int left_idx = i - k;
-            int right_idx = i + k;
+        int count = 2*k+1;
+        result[i] = window/count;
+        i++;
 
-            long long sum = pref[right_idx];
+        right++;
 
-            if (left_idx > 0) {
-                sum -= pref[left_idx - 1];
-            }
+        while(right<n) {
+            int out = nums[left];
+            int in = nums[right];
 
-            result[i] = sum/(2 * k + 1);
+            window += in - out;
+
+            result[i] = window/count;
+
+            i++;
+            right++;
+            left++;
         }
 
         return result;
