@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Ishwarsing34/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ishwarsing34/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ishwarsing34/Leetcode/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ishwarsing34/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Ishwarsing34/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ishwarsing34/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -283,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Ishwarsing34/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Simulation
 |  |
 | ------- |
