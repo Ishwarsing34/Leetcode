@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Ishwarsing34/Leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0338-counting-bits) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ishwarsing34/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Ishwarsing34/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 ## Math
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0567-permutation-in-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ishwarsing34/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Ishwarsing34/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Ishwarsing34/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/0214-shortest-palindrome) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## String Matching
 |  |
 | ------- |
@@ -132,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/0214-shortest-palindrome) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -162,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1256-rank-transform-of-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Ishwarsing34/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
