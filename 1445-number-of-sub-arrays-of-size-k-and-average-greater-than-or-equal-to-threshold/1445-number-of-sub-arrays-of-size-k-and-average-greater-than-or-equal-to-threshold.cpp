@@ -14,21 +14,20 @@ public:
         int n = nums.size();
         int sum = 0;
         int cnt = 0;
-        for (int i = 0; i < k; i++) {
 
-            sum += nums[i];
-        }
+        int i = 0;
+        int j = 0;
 
-        if (sum / k >= t)
-            cnt++;
-
-        for (int st = 1, en = k; en < n; st++, en++) {
-
-            sum -= nums[st - 1];
-            sum += nums[en];
-
-            if (sum / k >= t)
-                cnt++;
+        while (j < n) {
+            sum += nums[j];
+            while (j - i + 1 == k) {
+                if (sum / k >= t) {
+                    cnt++;
+                }
+                sum -= nums[i];
+                i++;
+            }
+            j++;
         }
 
         return cnt;
