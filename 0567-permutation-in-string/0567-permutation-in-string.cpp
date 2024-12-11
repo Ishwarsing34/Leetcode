@@ -1,58 +1,42 @@
 class Solution {
-private:
-   bool checkEqual(int a[26],int b[26])
-   {
-     for(int i=0;i<26;i++)
-     {
-        if(a[i]!=b[i]) return false;
-     }
+    bool checkallzero(vector<int>& counter) {
 
-     return true;
-   }
-    
+        for (auto i : counter) {
+            if (i != 0)
+                return false;
+        }
+
+        return true;
+    }
+
 public:
     bool checkInclusion(string s1, string s2) {
-        
-        int count1[26] = {0};
+        int n = s1.size();
+        int m = s2.size();
 
-        for(int i=0;i<s1.size();i++)
-        {
-            int index = s1[i]-'a';
-            count1[index]++;
+        vector<int> counter(26, 0);
+        int k = 0;
+        int j = 0;
 
+        for (int i = 0; i < n; i++) {
+            char ch = s1[i];
+            counter[ch - 'a']++;
         }
 
-        int count2[26] = {0};
-        int i=0;
-        int windowSize=s1.length();
+        while (j < m) {
+            counter[s2[j] - 'a']--;
 
-        while(i<windowSize && i<s2.length())
-        {
-            int index = s2[i]-'a';
-            count2[index]++;
-            i++;
-        }
-        
-        if(checkEqual(count1,count2)) return true;
+            if (j - k + 1 == n) {
+                if (checkallzero(counter)) {
+                    return true;
+                }
 
-        while(i<s2.length())
-        {
-            char newChar=s2[i];
-            int index = newChar-'a';
-            count2[index]++;
-
-
-            char oldChar=s2[i-windowSize];
-            index = oldChar - 'a';
-            count2[index]--;
-
-            i++;
-
-            if(checkEqual(count1,count2)) return true;
-
+                counter[s2[k] - 'a']++;
+                k++;
+            }
+            j++;
         }
 
         return false;
- 
     }
 };
