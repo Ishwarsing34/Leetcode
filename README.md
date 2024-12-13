@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1002-maximum-width-ramp](https://github.com/Ishwarsing34/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1256-rank-transform-of-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Ishwarsing34/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0729-my-calendar-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0731-my-calendar-ii) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Design
 |  |
 | ------- |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0731-my-calendar-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -298,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Ishwarsing34/Leetcode/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Ishwarsing34/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
