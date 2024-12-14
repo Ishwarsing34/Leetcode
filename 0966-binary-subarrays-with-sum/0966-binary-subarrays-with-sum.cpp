@@ -1,25 +1,25 @@
 class Solution {
-public:
-    int numSubarraysWithSum(vector<int>& nums, int goal) {
-        int n = nums.size();
-        unordered_map<int,int>mp;
+    int atmost(vector<int>& nums, int goal) {
 
-        mp[0] = 1;
-        int sum = 0;
-        int cnt = 0;
+        long long right = 0, left = 0, sum = 0, ans = 0;
+        for (right = 0; right < nums.size(); right++) {
 
-        for(int i=0;i<n;i++){
-           
-            sum+=nums[i];
+            sum += nums[right];
 
-            if(mp.find(sum-goal) != mp.end()){
-                cnt += mp[sum-goal];
+            while (left <= right and sum > goal) {
+                sum -= nums[left];
+                left++;
             }
-                
-            mp[sum]++;
-        
+
+            ans += right - left + 1;
         }
 
-        return cnt;
+        return ans;
+    }
+
+public:
+    int numSubarraysWithSum(vector<int>& nums, int goal) {
+        // general sliding window will fail here
+        return atmost(nums, goal) - atmost(nums, goal - 1);
     }
 };
