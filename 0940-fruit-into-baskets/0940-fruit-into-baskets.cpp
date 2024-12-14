@@ -3,7 +3,7 @@ public:
     int totalFruit(vector<int>& fruits) {
         int n = fruits.size();
 
-        set<int> st;
+        // set<int> st;
 
         int right = 0;
         int left = 0;
