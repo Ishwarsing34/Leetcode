@@ -2,40 +2,36 @@ class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
         int n = nums.size();
-        vector<int>result(n);
         int left = 0;
 
-        vector<int>equal;
-        vector<int>greater;
+        vector<int> greater;
+        vector<int> equal;
+        vector<int> result(n);
 
-        for(int i=0;i<n;i++)
-        {
-            if(nums[i]<pivot)
-            {
+        for (int i = 0; i < n; i++) {
+            if (nums[i] < pivot) {
                 result[left] = nums[i];
                 left++;
-            }else if(nums[i]>pivot)
-            {
+
+            } else if (nums[i] > pivot) {
                 greater.push_back(nums[i]);
-            }else{
+            } else {
                 equal.push_back(nums[i]);
             }
         }
 
+        
 
-        for(auto num : equal)
-        {
-            result[left] = num;
-            left++;
-        }
-
-        for(auto nums : greater)
-        {
+        for (auto nums : equal) {
             result[left] = nums;
             left++;
         }
 
-        return result;
+        for (auto num : greater) {
+            result[left] = num;
+            left++;
+        }
 
+        return result;
     }
 };
