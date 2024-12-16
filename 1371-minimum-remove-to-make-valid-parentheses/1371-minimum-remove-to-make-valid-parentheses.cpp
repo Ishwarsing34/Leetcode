@@ -2,36 +2,42 @@ class Solution {
 public:
     string minRemoveToMakeValid(string s) {
         int n = s.size();
-        stack<int> st;
-        unordered_set<int> remove_idx;
-
-        for (int i = 0; i < n; i++) {
-            if (s[i] == '(') {
-                st.push(i);
-            } else if (s[i] == ')') {
-                if (st.empty()) {
-                    remove_idx.insert(i);
-                } else {
-                    st.pop();
-                }
-            }
-        }
-
-        // only open brackets (((
-
-        while (!st.empty()) {
-            remove_idx.insert(st.top());
-            st.pop();
-        }
 
         string result = "";
+        int open = 0;
 
-        for (int i = 0; i < n; i++) {
-            if (remove_idx.find(i) == remove_idx.end()) {
+        for(int i=0;i<n;i++){
+
+            if(s[i] >= 'a' && s[i] <= 'z'){
+                result.push_back(s[i]);
+            }else if(s[i] == '('){
+                open++;
+                result.push_back(s[i]);
+            }else if(open > 0){
+                open--;
                 result.push_back(s[i]);
             }
         }
 
-        return result;
+        string final = "";
+
+        int close = 0;
+
+        for(int i = result.size()-1;i>=0;i--){
+
+            if(result[i] >= 'a' && result[i] <= 'z'){
+                final.push_back(result[i]);
+            }else if(result[i] == ')'){
+                close++;
+                final.push_back(result[i]);
+            }else if(close > 0){
+                close--;
+                final.push_back(result[i]);
+            }
+        }
+
+        reverse(final.begin(),final.end());
+
+        return final;
     }
 };
