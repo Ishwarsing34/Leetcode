@@ -1,7 +1,7 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        vector<string> stack;
+        vector<string> stack; //using vector as a stack
         int n = path.size();
         int j = 0;
 
