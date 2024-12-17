@@ -1,34 +1,47 @@
 class MinStack {
-    private:
-      stack<pair<int,int>>st;
-
+    stack<long long>st;
+    long min = LLONG_MAX;
 public:
     MinStack() {
         
     }
-    //TC = o(n)
-    //sc = (2*N)-->storing the pair Data struct
     
     void push(int val) {
-        if(st.empty()){
-            st.push({val,val});
+        long long value =(long long) val;
+        if(st.empty())
+        {
+            st.push(value);
+            min = value;
         }else{
-            st.push({val,min(val,st.top().second)});
+            if(min>value)
+            {
+                st.push(2*value - min);
+                min = value;
+            }else{
+                st.push(value);
+            }
         }
     }
     
     void pop() {
-         st.pop();
+        long long  x = st.top();
+        st.pop();
+
+        if(min>x)
+        {
+            min = 2*min - x;
+        }
     }
     
     int top() {
-      int el = st.top().first;
-      return el;
+        long long x = st.top();
+
+        if(x>min) return x;
+        else return min;
     }
     
     int getMin() {
-        int el = st.top().second;
-        return el;
+        return min;
     }
 };
 
