@@ -24,7 +24,7 @@ public:
             return -1;
         }
     }
-    
+    //here taking o(k)  all other operations are in o(1)
     void increment(int k, int val) {
         int limit = min(k,idx+1);
 
