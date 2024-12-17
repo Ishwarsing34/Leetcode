@@ -1,35 +1,45 @@
 class CustomStack {
-    vector<int>arr;
-    int idx = -1;
-    int maxSize;
-public:
+
+    //LAZY PROPAGATION METHOD
+public: 
+    vector<int>st;
+    vector<int>increments;
+    int n;
+
     CustomStack(int maxSize) {
-        this->maxSize = maxSize;
-        arr.resize(maxSize);
+        n = maxSize;
     }
     
     void push(int x) {
-        if(idx+1 < maxSize){
-            idx++;
-            arr[idx] = x;
+        if(st.size() < n) {
+            st.push_back(x);
+            increments.push_back(0); //no incas ofnow
         }
     }
     
     int pop() {
-        if(idx>=0){
-            int el = arr[idx];
-            idx--;
-            return el;
-        }else{
-            return -1;
-        }
-    }
-    //here taking o(k)  all other operations are in o(1)
-    void increment(int k, int val) {
-        int limit = min(k,idx+1);
+        if(st.size() == 0) return -1;
 
-        for(int i=0;i<limit;i++){
-            arr[i]+=val;
+        int idx = st.size() - 1;  //st.back() idx of top elemnt
+        if(idx > 0){
+            increments[idx-1] += increments[idx]; //lazy prop method
+        }
+
+        int top_val = st[idx] + increments[idx];
+
+        st.pop_back();
+        increments.pop_back();
+
+        return top_val;
+    }
+    
+    void increment(int k, int val) {
+        //k's value can be greater than st.size();
+
+        int idx = min(k,(int)st.size()) - 1;
+
+        if(idx >= 0){
+            increments[idx] += val;
         }
     }
 };
