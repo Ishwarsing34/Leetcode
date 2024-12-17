@@ -5,31 +5,31 @@ public:
 
         string token = "";
 
-        stringstream ss(path);
-        stack<string> st;
+       stringstream ss(path);
+       stack<string>st;
 
-        while (getline(ss, token, '/')) {
+       while(getline(ss,token,'/'))
+       {
+          if(token == "." || token == "" ) continue;
 
-            if (token == "" || token == ".")
-                continue;
-
-            if (token != "..") {
-                st.push(token);
-            } else if (!st.empty()) {
-                st.pop();
-            }
-        }
-
-        if (st.empty())
-            return "/";
-
-        string result = "";
-
-        while (!st.empty()) {
-            result = "/" + st.top() + result;
+          if(token != "..")
+          {
+            st.push(token);
+          }else if(!st.empty())
+          {
             st.pop();
-        }
+          }
+       }
 
-        return result;
+       if(st.empty()) return "/";
+
+       string ans = "";
+
+       while(!st.empty())
+       {
+          ans = "/" + st.top() + ans;
+          st.pop();
+       }
+        return ans;;
     }
 };
