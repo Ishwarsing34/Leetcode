@@ -6,6 +6,8 @@ public:
     MinStack() {
         
     }
+    //TC = o(n)
+    //sc = (2*N)-->storing the pair Data struct
     
     void push(int val) {
         if(st.empty()){
