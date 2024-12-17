@@ -1,42 +1,35 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        vector<string> stack; //using vector as a stack
-        int n = path.size();
-        int j = 0;
+        // learn to tokenize
 
-        while (j < n) {
-            // Skip consecutive slashes
-            while (j < n && path[j] == '/') {
-                j++;
-            }
+        string token = "";
 
-            // Extract the next component
-            string temp = "";
-            while (j < n && path[j] != '/') {
-                temp += path[j];
-                j++;
-            }
+        stringstream ss(path);
+        stack<string> st;
 
-            // Process the component
-            if (temp == "..") {
-                if (!stack.empty()) {
-                    stack.pop_back(); // Go back to the parent directory
-                }
-            } else if (!temp.empty() && temp != ".") {
-                stack.push_back(temp); // Add valid directory name
+        while (getline(ss, token, '/')) {
+
+            if (token == "" || token == ".")
+                continue;
+
+            if (token != "..") {
+                st.push(token);
+            } else if (!st.empty()) {
+                st.pop();
             }
         }
 
-        // Build the simplified path
-        string ans = "/";
-        for (int i = 0; i < stack.size(); i++) {
-            ans += stack[i];
-            if (i < stack.size() - 1) {
-                ans += '/';
-            }
+        if (st.empty())
+            return "/";
+
+        string result = "";
+
+        while (!st.empty()) {
+            result = "/" + st.top() + result;
+            st.pop();
         }
 
-        return ans;
+        return result;
     }
 };
