@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0179-largest-number) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0260-single-number-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/0260-single-number-iii) |
+| [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0713-subarray-product-less-than-k](https://github.com/Ishwarsing34/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0729-my-calendar-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0731-my-calendar-ii) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0729-my-calendar-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0731-my-calendar-ii) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ishwarsing34/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -309,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Ishwarsing34/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/Ishwarsing34/Leetcode/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Ishwarsing34/Leetcode/tree/master/0735-asteroid-collision) |
@@ -383,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/Ishwarsing34/Leetcode/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Ishwarsing34/Leetcode/tree/master/0739-daily-temperatures) |
