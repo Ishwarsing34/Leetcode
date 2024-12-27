@@ -10,7 +10,7 @@ public:
         stack<int> st;
 
         for (int i = 0; i < n; i++) {
-            while (!st.empty() && arr[st.top()] >= arr[i]) {
+            while (!st.empty() && arr[st.top()] >= arr[i]) { //>= for cosnidering duplicate elements
                 st.pop();
             }
             NSL[i] = st.empty() ? -1 : st.top();
