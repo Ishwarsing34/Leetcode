@@ -13,13 +13,13 @@ public:
         while(tickets[k] != 0) {
 
             tickets[q.front()]--;
-            // time++;
+            time++;
             if(tickets[q.front()]){
                 q.push(q.front());
             }
 
             q.pop();
-            time++;
+            // time++;
         }
 
         return time;
