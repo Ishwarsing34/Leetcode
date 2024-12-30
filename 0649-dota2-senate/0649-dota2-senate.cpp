@@ -36,7 +36,7 @@ public:
                  R_cnt--;
             }
 
-            idx = (idx + 1)%n;
+            idx = (idx + 1)%senate.size();
         }
 
         return R_cnt == 0 ? "Dire" : "Radiant";
