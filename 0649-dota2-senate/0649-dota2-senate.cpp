@@ -1,40 +1,37 @@
 class Solution {
-    bool removeSenator(string &senate, char ch, int &idx) {
-        int n = senate.size();
-        for (int i = 0; i < n; ++i) {
-            int pos = (idx + i) % n;
-            if (senate[pos] == ch) {
-                senate.erase(begin(senate) + pos);
-                if (pos < idx) {
-                    idx--;
-                }
-                return pos < idx;
-            }
-        }
-        return false;
-    }
-
 public:
     string predictPartyVictory(string senate) {
-        int n = senate.size();
-
-        int R_cnt = count(begin(senate), end(senate), 'R');
-        int D_cnt = n - R_cnt;
-
-        int idx = 0;
-
-        while (R_cnt > 0 && D_cnt > 0) {
-            if (senate[idx] == 'R') {
-                removeSenator(senate, 'D', idx);
-                D_cnt--;
-            } else {
-                removeSenator(senate, 'R', idx);
-                R_cnt--;
-            }
-
-            idx = (idx + 1) % senate.size();
+        
+        int n = senate.length();
+        
+        queue<int> queR;
+        queue<int> queD;
+        
+        for(int i = 0; i<n; i++) {
+            if(senate[i] == 'R')
+                queR.push(i);
+            else
+                queD.push(i);
         }
-
-        return R_cnt == 0 ? "Dire" : "Radiant";
+        
+        while(!queR.empty() && !queD.empty()) {
+            
+            int R_idx = queR.front(); queR.pop();
+            int D_idx = queD.front(); queD.pop();
+            
+            if(R_idx < D_idx) {
+                queR.push(R_idx+n);
+                //Why +n ?
+                //Do this dry run on "RDD"
+            } else {
+                queD.push(D_idx+n);
+                //Why +n ?
+                //Do this dry run on "RDD"
+            }
+            
+        }
+        
+        return queR.empty() ? "Dire" : "Radiant";
+        
     }
 };
