@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Ishwarsing34/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
+| [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 | [1814-jump-game-vi](https://github.com/Ishwarsing34/Leetcode/tree/master/1814-jump-game-vi) |
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ishwarsing34/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-design-circular-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/0860-design-circular-queue) |
 | [0937-online-stock-span](https://github.com/Ishwarsing34/Leetcode/tree/master/0937-online-stock-span) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Ishwarsing34/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 ## Segment Tree
 |  |
 | ------- |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/Ishwarsing34/Leetcode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/0860-design-circular-queue) |
 | [0908-middle-of-the-linked-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Ishwarsing34/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Queue
 |  |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/Ishwarsing34/Leetcode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/0860-design-circular-queue) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ishwarsing34/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 | [1814-jump-game-vi](https://github.com/Ishwarsing34/Leetcode/tree/master/1814-jump-game-vi) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Ishwarsing34/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Doubly-Linked List
@@ -459,4 +463,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/Ishwarsing34/Leetcode/tree/master/0937-online-stock-span) |
+| [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 <!---LeetCode Topics End-->
