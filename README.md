@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Ishwarsing34/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
+| [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Ishwarsing34/Leetcode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 | [1814-jump-game-vi](https://github.com/Ishwarsing34/Leetcode/tree/master/1814-jump-game-vi) |
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Ishwarsing34/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1256-rank-transform-of-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Ishwarsing34/Leetcode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ishwarsing34/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Dynamic Programming
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0731-my-calendar-ii) |
 | [0792-binary-search](https://github.com/Ishwarsing34/Leetcode/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Ishwarsing34/Leetcode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 ## Design
 |  |
 | ------- |
