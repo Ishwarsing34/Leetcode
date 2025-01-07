@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Ishwarsing34/Leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0338-counting-bits) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ishwarsing34/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0275-h-index-ii) |
+| [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0275-h-index-ii) |
+| [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/Ishwarsing34/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0713-subarray-product-less-than-k](https://github.com/Ishwarsing34/Leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -404,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
