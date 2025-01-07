@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findDuplicate(std::vector<int>& nums) {
-        int left = 1;
+        int left = 0;
         int right = nums.size() - 1;
         sort(nums.begin(),nums.end());
 
