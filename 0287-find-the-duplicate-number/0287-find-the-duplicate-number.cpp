@@ -1,21 +1,28 @@
 class Solution {
 public:
-    int findDuplicate(vector<int>& nums) {
-        map<int,int>mp;
-        int ans = 0;
-        int n = nums.size();
+    int findDuplicate(std::vector<int>& nums) {
+        int left = 1;
+        int right = nums.size() - 1;
 
-        for(int i=0;i<n;i++)
-        {
-            mp[nums[i]]++;
-        }
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            int count = 0;
 
-        for(auto it:mp)
-        {
-            if(it.second>=2){
-                ans=it.first;
+            // Count the numbers less than or equal to mid
+            for (int num : nums) {
+                if (num <= mid) {
+                    count++;
+                }
+            }
+
+            // If count is greater than mid, the duplicate lies in the left half
+            if (count > mid) {
+                right = mid;
+            } else { // Otherwise, it lies in the right half
+                left = mid + 1;
             }
         }
-        return ans;
+
+        return left;
     }
 };
