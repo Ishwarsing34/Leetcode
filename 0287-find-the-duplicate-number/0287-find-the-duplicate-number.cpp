@@ -3,6 +3,7 @@ public:
     int findDuplicate(std::vector<int>& nums) {
         int left = 1;
         int right = nums.size() - 1;
+        sort(nums.begin(),nums.end());
 
         while (left < right) {
             int mid = left + (right - left) / 2;
