@@ -9,19 +9,19 @@ public:
          if(nums.size() == 1) return nums[0];
         if(nums[0]<nums[high]) return nums[0];
 
-        while (low <= high) {
+        while (low < high) {
 
             int mid = low + (high - low) / 2;
 
            if(nums[mid]>nums[high]){
                 low = mid+1;
            }else{
-               ans = min(ans,nums[mid]);
-               high = mid-1;
+               
+               high = mid;
            }
             
         }
 
-        return ans;
+        return nums[high];
     }
 };
