@@ -8,7 +8,7 @@ class Solution {
             // Calculate hours required for the current pile
             hour += (piles[i] + mid - 1) / mid;
 
-            // If hours exceed h, no need to continue
+          
             if (hour > h)
                 return false;
         }
