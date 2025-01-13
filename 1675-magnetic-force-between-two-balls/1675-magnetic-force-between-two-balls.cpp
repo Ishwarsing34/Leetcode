@@ -1,43 +1,35 @@
 class Solution {
-    int getCnt(vector<int>& position, int mid, int k) {
-
-        int cnt = 1;
-        int pos = position[0];
-
-        for (int i = 1; i < position.size(); i++) {
-            if (pos + mid <= position[i]) {
-                cnt++;
-                pos = position[i];
+public:
+    int maxDistance(vector<int>& position, int m) {
+        sort(position.begin(), position.end());
+        int lo = 1;
+        int hi = (position.back() - position[0]) / (m - 1);
+        int ans = 1;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (canWePlace(position, mid, m)) {
+                ans = mid;
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
             }
         }
-
-        return cnt;
+        return ans;
     }
 
-public:
-    int maxDistance(vector<int>& position, int k) {
-        int n = position.size();
-        sort(position.begin(), position.end());
-
-        int start = 1;
-        int result = 0;
-        int end = position[n-1] - position[0];
-
-        while (start <= end) {
-
-            int mid = start + (end - start) / 2;
-
-            if (getCnt(position, mid, k) < k) {
-                end = mid - 1;
-            } else {
-
-                result = mid;
-                start = mid + 1;
-
-                
+private:
+    bool canWePlace(const vector<int>& arr, int dist, int balls) {
+        int countBalls = 1;
+        int lastPlaced = arr[0];
+        for (int i = 1; i < arr.size(); i++) {
+            if (arr[i] - lastPlaced >= dist) {
+                countBalls++;
+                lastPlaced = arr[i];
+            }
+            if (countBalls >= balls) {
+                return true;
             }
         }
-
-        return result;
+        return false;
     }
 };
