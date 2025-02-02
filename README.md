@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Ishwarsing34/Leetcode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 | [1814-jump-game-vi](https://github.com/Ishwarsing34/Leetcode/tree/master/1814-jump-game-vi) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ishwarsing34/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ishwarsing34/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Ishwarsing34/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
