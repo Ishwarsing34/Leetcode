@@ -1,22 +1,27 @@
 class Solution {
 public:
+
+   int binary(vector<int>nums, int st, int en, int target){
+        
+
+        if(st>en) return -1;
+        int mid = st + (en - st)/2;
+
+        if(nums[mid] == target) return mid;
+        else if(nums[mid] < target){
+            return binary(nums,mid+1,en,target);
+        }else{
+
+            return binary(nums,st,mid-1,target);
+        }
+   } 
+//using recursion
     int search(vector<int>& nums, int target) {
         int n = nums.size();
-        int low = 0;
-        int high = n-1;
 
-        while(low<=high)
-        {
-            int mid = (high+low)/2;
+        int st = 0;
+        int en = n-1;
 
-            if(nums[mid] == target){
-              return mid;
-            }else if(nums[mid]<target){
-                low = mid+1;
-            }else{
-                high = mid - 1;
-            }
-        }
-        return -1;
+        return binary(nums,st,en,target);
     }
 };
