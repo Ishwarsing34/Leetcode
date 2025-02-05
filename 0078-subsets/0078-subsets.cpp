@@ -1,19 +1,27 @@
 class Solution {
+    void subseq(vector<int>& nums, int ind, int n, vector<int>& temp,
+                vector<vector<int>>& ans) {
+
+        if (ind == n) {
+            ans.push_back(temp);
+            return;
+        }
+
+        subseq(nums, ind + 1, n, temp, ans);
+        temp.push_back(nums[ind]);
+        subseq(nums, ind + 1, n, temp, ans);
+        temp.pop_back();
+    }
+
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        int n = nums.size();
-        int sub = 1 << n;  // Total number of subsets is 2^n
+
+        vector<int> temp;
         vector<vector<int>> ans;
 
-        for (int i = 0; i < sub; i++) { 
-            vector<int> ls;
-            for (int j = 0; j < n; j++) {  
-                if (i & (1 << j)) {  
-                    ls.push_back(nums[j]);
-                }
-            }
-            ans.push_back(ls);  
-        }
+        int n = nums.size();
+
+        subseq(nums, 0, n, temp, ans);
 
         return ans;
     }
