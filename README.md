@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/Ishwarsing34/Leetcode/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/Ishwarsing34/Leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0191-number-of-1-bits) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Ishwarsing34/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/Ishwarsing34/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0078-subsets](https://github.com/Ishwarsing34/Leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ishwarsing34/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Ishwarsing34/Leetcode/tree/master/0078-subsets) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Tree
 |  |
