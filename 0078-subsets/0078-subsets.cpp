@@ -1,5 +1,5 @@
 class Solution {
-    void subseq(vector<int>& nums, int ind, int n, vector<int>& temp,
+    void subseq(vector<int> nums, int ind, int n, vector<int> temp,
                 vector<vector<int>>& ans) {
 
         if (ind == n) {
@@ -10,7 +10,7 @@ class Solution {
         subseq(nums, ind + 1, n, temp, ans);
         temp.push_back(nums[ind]);
         subseq(nums, ind + 1, n, temp, ans);
-        temp.pop_back();
+        // temp.pop_back();
     }
 
 public:
