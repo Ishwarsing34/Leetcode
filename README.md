@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Ishwarsing34/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [2816-lexicographically-smallest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/2816-lexicographically-smallest-palindrome) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Greedy
 |  |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Ishwarsing34/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
+| [2816-lexicographically-smallest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/2816-lexicographically-smallest-palindrome) |
 ## Sorting
 |  |
 | ------- |
@@ -483,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ishwarsing34/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2634-minimum-common-value](https://github.com/Ishwarsing34/Leetcode/tree/master/2634-minimum-common-value) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Ishwarsing34/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2816-lexicographically-smallest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/2816-lexicographically-smallest-palindrome) |
 ## Sliding Window
 |  |
 | ------- |
