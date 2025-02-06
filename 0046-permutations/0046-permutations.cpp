@@ -1,29 +1,26 @@
 class Solution {
-    void permutation(vector<int>&nums, vector<vector<int>>&ans, vector<int>&temp, vector<bool>&visited){
+    void permutation(vector<int>& nums, vector<vector<int>>& ans, int index) {
 
-        if(visited.size() == temp.size()){
-            ans.push_back(temp);
+        if (index == nums.size()) {
+            ans.push_back(nums);
             return;
         }
 
-        for(int i=0;i<visited.size();i++){
+        for (int i = index; i < nums.size(); i++) {
 
-            if(visited[i] == 0){
-                visited[i] = 1;
-                temp.push_back(nums[i]);
-                permutation(nums,ans,temp,visited);
-                visited[i] = 0;
-                temp.pop_back();
-            }
+            swap(nums[i], nums[index]);
+            permutation(nums, ans, index + 1);
+            swap(nums[i], nums[index]);
         }
     }
+
 public:
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>>ans;
-        vector<int>temp;
-        vector<bool>visited(nums.size(),0);
-        
-        permutation(nums,ans,temp,visited);
+        // using without extra spaxce
+
+        vector<vector<int>> ans;
+
+        permutation(nums, ans, 0);
 
         return ans;
     }
