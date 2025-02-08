@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0326-power-of-three](https://github.com/Ishwarsing34/Leetcode/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Array
 |  |
 | ------- |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ishwarsing34/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ishwarsing34/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Ishwarsing34/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2211-k-radius-subarray-averages](https://github.com/Ishwarsing34/Leetcode/tree/master/2211-k-radius-subarray-averages) |
@@ -429,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ishwarsing34/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1767-design-front-middle-back-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/1767-design-front-middle-back-queue) |
 | [1814-jump-game-vi](https://github.com/Ishwarsing34/Leetcode/tree/master/1814-jump-game-vi) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Ishwarsing34/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Doubly-Linked List
 |  |
@@ -527,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Ishwarsing34/Leetcode/tree/master/0735-asteroid-collision) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Ishwarsing34/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Ishwarsing34/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
