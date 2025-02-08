@@ -1,6 +1,6 @@
 class Solution {
     int winner(vector<bool>&person, int n, int k, int person_left, int ind)
-    {
+    {//brute 0 n^2
         if(person_left == 1) {
             for(int i=0;i<n;i++){
                 if(person[i] == 0) return i+1;
