@@ -1,36 +1,8 @@
 class Solution {
 
-    bool check(int n, vector<string>&Board, int i, int j )
-    {
-        //upper left digonal,no queen should be there
-       int row = i, col = j;
 
-       while(row > -1 && col > -1)
-       {
-          if(Board[row][col] == 'Q'){
-            return 0;
-          }
-          row--,col--;
-       }
 
-   
-        //same for upper right
-
-        row = i, col = j;
-
-        while(row > -1 && col < n)
-        {
-            if(Board[row][col] == 'Q'){
-                return 0;
-            }
-
-            row--,col++;
-        }
-
-        return 1;
-    }
-
-    void find(int row, int n,  vector<vector<string>>&ans, vector<string>&Board, vector<bool>column)
+    void find(int row, int n,  vector<vector<string>>&ans, vector<string>&Board, vector<bool>column, vector<bool>&left, vector<bool>&right)
     {
         //base 
         if(row == n){
@@ -41,18 +13,22 @@ class Solution {
 
         for(int j=0;j<n;j++)
         {
-            if(column[j] == 0 && check(n,Board,row,j)){
+            if(column[j] == 0 && left[n-1+j-row] == 0 && right[row+j] == 0){
                  column[j] = 1;
+                 left[n-1+j-row] = 1;
+                 right[row+j] = 1;
                  Board[row][j] = 'Q';
-                 find(row+1,n,ans,Board,column);
+                 find(row+1,n,ans,Board,column,left,right);
                  column[j] = 0;
                  Board[row][j] = '.';
+                  left[n-1+j-row] = 0;
+                 right[row+j] = 0;
             }
         }
     }
 public:
     vector<vector<string>> solveNQueens(int n) {
-        //bruteforce
+       //optimize
         vector<vector<string>>ans;
         vector<string>Board(n);
 
@@ -61,8 +37,11 @@ public:
         Board[i].push_back('.');
 
         vector<bool>column(n,0);
+
+        vector<bool>left(2*n-1,0);
+        vector<bool>right(2*n-1,0);
         
-        find(0,n,ans,Board,column);
+        find(0,n,ans,Board,column,left,right);
 
 
         return ans;
