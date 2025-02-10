@@ -52,7 +52,7 @@ class Solution {
     }
 public:
     vector<vector<string>> solveNQueens(int n) {
-        
+        //bruteforce
         vector<vector<string>>ans;
         vector<string>Board(n);
 
