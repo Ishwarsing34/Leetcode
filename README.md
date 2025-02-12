@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ishwarsing34/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Ishwarsing34/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2634-minimum-common-value](https://github.com/Ishwarsing34/Leetcode/tree/master/2634-minimum-common-value) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/Ishwarsing34/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Ishwarsing34/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2751-sliding-subarray-beauty](https://github.com/Ishwarsing34/Leetcode/tree/master/2751-sliding-subarray-beauty) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2128-reverse-prefix-of-word](https://github.com/Ishwarsing34/Leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/Ishwarsing34/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Ishwarsing34/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2816-lexicographically-smallest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/2816-lexicographically-smallest-palindrome) |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/Ishwarsing34/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Linked List
 |  |
 | ------- |
