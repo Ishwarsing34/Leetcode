@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2050-count-good-numbers](https://github.com/Ishwarsing34/Leetcode/tree/master/2050-count-good-numbers) |
 ## Recursion
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0326-power-of-three](https://github.com/Ishwarsing34/Leetcode/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2050-count-good-numbers](https://github.com/Ishwarsing34/Leetcode/tree/master/2050-count-good-numbers) |
 ## Array
 |  |
 | ------- |
