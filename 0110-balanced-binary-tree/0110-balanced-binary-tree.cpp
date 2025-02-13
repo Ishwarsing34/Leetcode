@@ -6,42 +6,42 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 
-    //brute o(n^2)
-      int height(TreeNode* node){
-        if(node == nullptr){
-            return 0;
+    pair<bool, int> balanced(TreeNode* root) {
+
+        if (root == nullptr)
+            return {true, 0};
+
+        pair<bool, int> left = balanced(root->left);
+        pair<bool, int> right = balanced(root->right);
+
+        bool leftAns = left.first;
+        bool rightAns = right.first;
+
+        bool diff = abs(left.second - right.second) <= 1;
+
+        pair<bool, int> ans;
+
+        ans.second = max(left.second, right.second) + 1;
+
+        if (leftAns && rightAns && diff) {
+            ans.first = true;
+
+        } else {
+            ans.first = false;
         }
 
-        int left = height(node -> left);
-        int right = height(node -> right);
-
-        int ans = max(left,right);
-
-        return  ans+1;
+        return ans;
     }
+
 public:
     bool isBalanced(TreeNode* root) {
-        
-        if(root == nullptr){
-            return true;
-        }
 
-
-        bool left = isBalanced(root->left);
-        bool right = isBalanced(root->right);
-
-        bool diff = abs(height(root->left) - height(root->right)) <= 1;
-
-        if(left && right && diff){
-            return 1;
-        }else{
-
-            return false;
-        }
+        return balanced(root).first;
     }
 };
