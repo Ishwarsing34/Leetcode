@@ -14,7 +14,7 @@ class Solution {
         if(node == nullptr){
             return 0;
         }
-
+   //brute
         int left = height(node -> left);
         int right = height(node -> right);
 
