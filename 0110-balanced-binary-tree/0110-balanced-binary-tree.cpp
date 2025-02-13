@@ -10,6 +10,8 @@
  * };
  */
 class Solution {
+
+    //brute o(n^2)
       int height(TreeNode* node){
         if(node == nullptr){
             return 0;
