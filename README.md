@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0338-counting-bits) |
+| [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ishwarsing34/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Ishwarsing34/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0525-contiguous-array) |
+| [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Ishwarsing34/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0338-counting-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0338-counting-bits) |
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
+| [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
 | [0943-sum-of-subarray-minimums](https://github.com/Ishwarsing34/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
 | [1814-jump-game-vi](https://github.com/Ishwarsing34/Leetcode/tree/master/1814-jump-game-vi) |
@@ -602,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Ishwarsing34/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Ishwarsing34/Leetcode/tree/master/0078-subsets) |
+| [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Tree
 |  |
@@ -659,4 +663,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
+## Bitmask
+|  |
+| ------- |
+| [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
 <!---LeetCode Topics End-->
