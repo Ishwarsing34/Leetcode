@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Ishwarsing34/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
+| [0494-target-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0338-counting-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0338-counting-bits) |
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
+| [0494-target-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0494-target-sum) |
 | [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
 | [0943-sum-of-subarray-minimums](https://github.com/Ishwarsing34/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
@@ -605,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Ishwarsing34/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Ishwarsing34/Leetcode/tree/master/0078-subsets) |
+| [0494-target-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0494-target-sum) |
 | [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Tree
