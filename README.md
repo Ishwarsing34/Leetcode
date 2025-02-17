@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0148-sort-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0148-sort-list) |
 | [0191-number-of-1-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0191-number-of-1-bits) |
 ## Bit Manipulation
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/Ishwarsing34/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ishwarsing34/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0137-single-number-ii) |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/Ishwarsing34/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Ishwarsing34/Leetcode/tree/master/0146-lru-cache) |
@@ -619,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/0100-same-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
@@ -638,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/0100-same-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
