@@ -12,6 +12,7 @@
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
+        //recursive
         if (!root) {
             return nullptr;
         }
