@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0148-sort-list) |
 | [0191-number-of-1-bits](https://github.com/Ishwarsing34/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0275-h-index-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/Ishwarsing34/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0494-target-sum) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Ishwarsing34/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
@@ -326,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ishwarsing34/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/Ishwarsing34/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -361,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Ishwarsing34/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -617,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ishwarsing34/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -735,4 +741,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
