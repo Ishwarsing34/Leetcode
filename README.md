@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ishwarsing34/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0979-di-string-match](https://github.com/Ishwarsing34/Leetcode/tree/master/0979-di-string-match) |
 | [1078-remove-outermost-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Ishwarsing34/Leetcode/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
@@ -309,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Ishwarsing34/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/Ishwarsing34/Leetcode/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/Ishwarsing34/Leetcode/tree/master/0854-making-a-large-island) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Trie
@@ -671,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Ishwarsing34/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -699,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Ishwarsing34/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Ishwarsing34/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Data Stream
 |  |
