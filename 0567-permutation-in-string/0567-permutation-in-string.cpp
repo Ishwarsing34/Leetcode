@@ -1,40 +1,47 @@
 class Solution {
-    bool checkallzero(vector<int>& counter) {
-
-        for (auto i : counter) {
-            if (i != 0)
-                return false;
+    bool check(vector<int>&cnt)
+    {
+        for(auto i:cnt)
+        {
+            if(i!=0) return false;
         }
 
         return true;
     }
-
 public:
     bool checkInclusion(string s1, string s2) {
-        int n = s1.size();
-        int m = s2.size();
+        int k = s1.size();
 
-        vector<int> counter(26, 0);
-        int k = 0;
-        int j = 0;
+        int n = s2.size();
 
-        for (int i = 0; i < n; i++) {
-            char ch = s1[i];
-            counter[ch - 'a']++;
+
+        vector<int>cnt(26,0);
+
+
+        for(int i=0;i<k;i++)
+        {
+            cnt[s1[i]-'a']++;
         }
 
-        while (j < m) {
-            counter[s2[j] - 'a']--;
+        int i = 0,j = 0;
 
-            if (j - k + 1 == n) {
-                if (checkallzero(counter)) {
+
+        while(j < n)
+        {
+             cnt[s2[j]-'a']--;
+
+             if(j-i+1 == k)
+             {
+                if(check(cnt))
+                {
                     return true;
                 }
 
-                counter[s2[k] - 'a']++;
-                k++;
-            }
-            j++;
+                cnt[s2[i]-'a']++;
+                i++;
+             }
+
+             j++;
         }
 
         return false;
