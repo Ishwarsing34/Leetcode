@@ -1,26 +1,28 @@
 class Solution {
-    int xthElement(map<int, int>& mp, int x) {
+    int find(map<int, int> &mp, int x) {
 
-        int count = 0, xthEl = 0;
-        for (auto it : mp) {
-            count += it.second;
-            if (count >= x) {
-                xthEl = it.first;
+        int cnt = 0, ans = 0;
+
+        for (auto i : mp) {
+
+            cnt += i.second;
+
+            if (cnt >= x) {
+                ans = i.first;
                 break;
             }
         }
 
-        return xthEl;
+        return ans;
     }
 
 public:
     vector<int> getSubarrayBeauty(vector<int>& nums, int k, int x) {
         int n = nums.size();
         map<int, int> mp;
-        vector<int>ans;
+        vector<int> res;
 
-        int i = 0;
-        int j = 0;
+        int i = 0, j = 0;
 
         while (j < n) {
 
@@ -28,20 +30,20 @@ public:
                 mp[nums[j]]++;
             }
 
-            if (j - i + 1 == k) {
-                int ele = xthElement(mp, x);
-                ans.push_back(ele);
+            if(j - i + 1 == k) {
+
+                int el = find(mp, x);
+                res.push_back(el);
 
                 mp[nums[i]]--;
                 if (mp[nums[i]] == 0) {
                     mp.erase(nums[i]);
-                    
                 }
                 i++;
             }
+
             j++;
         }
-
-        return ans;
+        return res;
     }
 };
