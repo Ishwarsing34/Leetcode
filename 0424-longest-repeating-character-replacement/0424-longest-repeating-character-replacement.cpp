@@ -2,20 +2,23 @@ class Solution {
 public:
     int characterReplacement(string s, int k) {
         int n = s.size();
-        int right = 0, left = 0, ans = 0;
-        int hash[26] = {};
+        unordered_map<int,int>mp;
+        int res = 0, maxFreq = 0;
+        int i = 0;
+        for(int j=0;j<n;j++){
+            mp[s[j]]++;
 
-        for (right = 0; right < n; right++) {
-            hash[s[right] - 'A']++;
+            maxFreq = max(maxFreq,mp[s[j]]);
 
-            while (right - left + 1 - *max_element(hash, hash + 26) > k) {
-                hash[s[left] - 'A']--;
-                left++;
+            while( j-i+1 - maxFreq > k){
+                mp[s[i]]--;
+                i++;
+                // if(mp[])
             }
 
-            ans = max(right - left + 1, ans);
+            res = max(res,j-i+1);
         }
 
-        return ans;
+        return res;
     }
 };
