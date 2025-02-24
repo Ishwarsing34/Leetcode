@@ -1,29 +1,33 @@
 class Solution {
-    bool isValid(string cur, int maxLet) {
-        map<char, int> mp;
+    bool isValid(string& cur, int maxLet) {
+        map<char, int> mpp;
 
-        for (char c : cur) {
-            mp[c]++;
+        for (auto it : cur) {
+            mpp[it]++;
         }
 
-        return mp.size() <= maxLet;
+        return mpp.size() <= maxLet;
     }
 
 public:
     int maxFreq(string s, int maxLet, int minSize, int maxSize) {
         int n = s.size();
+        if (n == 0 || maxLet == 0)
+            return 0;
 
         map<string, int> mp;
+
         int maxx = 0;
-        if (n == 0 || maxLet == 0) return 0;
-        
         for (int i = 0; i < n - minSize + 1; i++) {
-            string cur = s.substr(i, minSize);  // Fix: Correct substring extraction
+
+            string cur = s.substr(i, minSize);
+
             if (isValid(cur, maxLet)) {
                 mp[cur]++;
                 maxx = max(maxx, mp[cur]);
             }
         }
+
         return maxx;
     }
 };
