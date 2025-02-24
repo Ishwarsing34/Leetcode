@@ -8,27 +8,27 @@ public:
     int maxVowels(string s, int k) {
         int n = s.size();
 
-        int i = 0;
-        int j = 0;
-        int cnt = 0;
         int maxxi = INT_MIN;
+        int cnt = 0;
 
-        while (j < n) {
-            if (isVowel(s[j])) {
+        for (int i = 0; i < k; i++) {
+
+            if (isVowel(s[i])) {
                 cnt++;
             }
+        }
 
-            if (j - i + 1 == k) {
+        maxxi = cnt;
 
-                maxxi = max(maxxi, cnt);
-                if (isVowel(s[i])) {
-                    cnt--;
-                }
+        for (int st = 1, en = k; en < n; st++,en++) {
 
-                i++;
+            if (isVowel(s[st - 1])) {
+                cnt--;
             }
+            if (isVowel(s[en]))
+                cnt++;
 
-            j++;
+            maxxi = max(maxxi, cnt);
         }
 
         return maxxi;
