@@ -1,19 +1,18 @@
 class Solution {
 public:
-    bool checkIfPangram(string s) {
-        vector<int>arr(26,0);
-        int cnt  = 0;
+    bool checkIfPangram(string sentence) {
+        vector<int> ans(26, 0);
+        int cnt = 0;
+        for (auto it : sentence) {
 
-        for(char& ch : s){
-          int  idx = ch - 'a';
+            int idx = it - 'a';
 
-            if(arr[idx] == 0)
-            {
-                arr[idx]++;
+            if (ans[idx] == 0) {
+                ans[idx]++;
                 cnt++;
             }
         }
 
-        return true ? (cnt == 26) : false;
+        return cnt == 26 ? true : false;
     }
 };
