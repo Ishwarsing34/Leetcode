@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2819-remove-trailing-zeros-from-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2819-remove-trailing-zeros-from-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Ishwarsing34/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3405-count-the-number-of-special-characters-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3405-count-the-number-of-special-characters-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3206-find-common-elements-between-two-arrays](https://github.com/Ishwarsing34/Leetcode/tree/master/3206-find-common-elements-between-two-arrays) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3405-count-the-number-of-special-characters-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3405-count-the-number-of-special-characters-ii) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Ishwarsing34/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 ## Counting
 |  |
