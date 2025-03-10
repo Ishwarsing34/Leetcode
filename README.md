@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/Ishwarsing34/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0456-132-pattern](https://github.com/Ishwarsing34/Leetcode/tree/master/0456-132-pattern) |
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0494-target-sum) |
@@ -356,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Ishwarsing34/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/Ishwarsing34/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Ishwarsing34/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0525-contiguous-array) |
