@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0179-largest-number) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Ishwarsing34/Leetcode/tree/master/0217-contains-duplicate) |
 | [0260-single-number-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0275-h-index-ii) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Ishwarsing34/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -348,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Ishwarsing34/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0217-contains-duplicate](https://github.com/Ishwarsing34/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ishwarsing34/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
