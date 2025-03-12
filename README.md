@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Ishwarsing34/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ishwarsing34/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Ishwarsing34/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Ishwarsing34/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/Ishwarsing34/Leetcode/tree/master/2634-minimum-common-value) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Ishwarsing34/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Ishwarsing34/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ishwarsing34/Leetcode/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Ishwarsing34/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Binary Search
 |  |
 | ------- |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Ishwarsing34/Leetcode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Ishwarsing34/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Ishwarsing34/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/Ishwarsing34/Leetcode/tree/master/2634-minimum-common-value) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Ishwarsing34/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Design
