@@ -1,36 +1,23 @@
 class Solution {
-    bool check(string &v, string &pattern) {
-        for (int i = 0; i < pattern.size(); i++) {
-            if (pattern[i] == 'I' && v[i] < v[i + 1]) continue;
-            else if (pattern[i] == 'D' && v[i] > v[i + 1]) continue;
-            else return false;
-        }
-        return true;
-    }
-
-    string number(string &v, string &pattern, int ind) {
-        if (ind == pattern.size()) {
-            if (check(v, pattern)) {
-                return v;
-            }
-            return "";  
-        }
-
-        for (int i = ind; i < v.size(); i++) {
-            swap(v[i], v[ind]);
-            string res = number(v, pattern, ind + 1); 
-            swap(v[i], v[ind]);
-            if (!res.empty()) return res; 
-        }
-        return "";
-    }
-
 public:
     string smallestNumber(string pattern) {
-        string v = "";  
-        for (int i = 1; i <= pattern.size() + 1; i++) {
-            v.push_back('0' + i);
+
+        int ind = 0;
+        string res = "";
+        int n = pattern.size();
+        vector<int>stack(n + 1); /// regular stack doesnt allow indexing
+            for (int i = 0; i <= n; i++) {
+
+            stack[ind++] = i + 1;
+
+            if (i == n || pattern[i] == 'I') {
+
+                while (ind > 0) {
+                    res += to_string(stack[--ind]);
+                }
+            }
         }
-        return number(v, pattern, 0);
+
+        return res;
     }
 };
