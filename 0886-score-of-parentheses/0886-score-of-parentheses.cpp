@@ -1,23 +1,25 @@
 class Solution {
 public:
     int scoreOfParentheses(string s) {
-        int depth = 0;
-        int res = 0;
-        char prev = '(';
+        int n = s.size();
 
-        for (char& ch : s) {
-            if (ch == '(') {
+        int depth = 0;
+        char prev = '(';
+        int ans = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (s[i] == '(')
                 depth++;
-            } else {
+            else {
                 depth--;
                 if (prev == '(') {
-                    res += pow(2, depth);
+                    ans += pow(2, depth);
                 }
             }
 
-            prev = ch;
+            prev = s[i];
         }
 
-        return res;
+        return ans;
     }
 };
