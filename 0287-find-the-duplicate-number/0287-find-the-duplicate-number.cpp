@@ -2,32 +2,28 @@ class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
         int n = nums.size();
+        sort(nums.begin(),nums.end());
 
-        int low = 1;
-        int high = n-1,ans = 0;
+        int left = 1;
+        int right = n - 1;
 
-        while(low<=high){
-            int mid = low + (high - low)/2;
+        while(left < right){
 
+            int mid = left + (right - left)/2;
             int cnt = 0;
 
-            for(auto &num : nums)
-            {
-                if(num<=mid)
-                {
+            for(int num : nums){
+                if(num<=mid){
                     cnt++;
                 }
             }
 
-            if(cnt > mid)
-            {
-               ans = mid;
-               high = mid - 1;
+            if(cnt > mid){
+                right = mid;
             }else{
-                low = mid + 1;
+                left = mid+1;
             }
         }
-
-        return ans;
+        return right;
     }
 };
