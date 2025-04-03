@@ -4,32 +4,30 @@ public:
         int n = nums.size();
         int m = queries.size();
 
-        vector<int>ans(m);
+        vector<int> ans(m);
 
         sort(nums.begin(),nums.end());
 
+        for (int i = 1; i < n; i++) {
 
-        for(int i=1;i<n;i++)
-        {
-            nums[i] += nums[i-1];
+            nums[i] += nums[i - 1];
         }
 
-        for(int i=0;i<m;i++)
-        {
+        for (int i = 0; i < m; i++) {
+
+            int low = 0;
+            int high = n - 1;
             int maxLen = 0;
 
-            int lo = 0;
-            int hi = n-1;
+            while (low <= high) {
 
-            while(lo<=hi) {
+                int mid = low + (high - low) / 2;
 
-                int mid = lo + (hi-lo)/2;
-
-                if(nums[mid]>queries[i]){
-                    hi = mid - 1;
-                }else{
+                if (nums[mid] > queries[i]) {
+                    high = mid - 1;
+                } else {
                     maxLen = mid + 1;
-                    lo = mid +1;
+                    low = mid + 1;
                 }
             }
 
@@ -37,6 +35,5 @@ public:
         }
 
         return ans;
-
     }
 };
