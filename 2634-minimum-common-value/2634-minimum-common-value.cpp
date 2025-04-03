@@ -1,33 +1,37 @@
-//Approach-2 (Using Binary Search)
-//T.C : O(mlogn)
-//S.C : O(1)
 class Solution {
-public:
-    bool binarySearch(vector<int>& nums, int target) {
-        int l = 0, r = nums.size()-1;
-        
-        while(l <= r) {
-            int mid = l + (r-l)/2;
-            
-            if(nums[mid] == target) {
+
+    int checkCom(vector<int>& nums1, int num) {
+
+        int n = nums1.size();
+
+        int low = 0;
+        int high = n - 1;
+
+        while (low <= high) {
+
+            int mid = low + (high - low) / 2;
+
+            if (nums1[mid] == num)
                 return true;
-            } else if(nums[mid] < target) {
-                l = mid+1;
-            } else {
-                r = mid-1;
-            }
+            else if (nums1[mid] < num)
+                low = mid + 1;
+            else
+                high = mid - 1;
         }
-        
+
         return false;
     }
-    
+
+public:
     int getCommon(vector<int>& nums1, vector<int>& nums2) {
-        
-        for(int &num : nums2) {
-            if(binarySearch(nums1, num))
+
+        for (int num : nums2) {
+
+            if (checkCom(nums1, num)) {
                 return num;
+            }
         }
-        
+
         return -1;
     }
 };
