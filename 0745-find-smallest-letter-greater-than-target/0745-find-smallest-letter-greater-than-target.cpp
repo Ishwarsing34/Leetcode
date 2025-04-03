@@ -1,25 +1,23 @@
 class Solution {
 public:
-    char nextGreatestLetter(vector<char>& let, char target) {
-        int n = let.size();
+    char nextGreatestLetter(vector<char>& nums, char target) {
+        int n = nums.size();
 
         int low = 0;
-        int high = n-1;
+        int high = n - 1;
+        char ans = nums[low];
 
-       char ans = let[low];
+        while (low <= high) {
 
-        while(low<=high)
-        {
-            int mid = low + (high - low)/2;
+            int mid = low + (high - low) / 2;
 
-            if(let[mid] > target){
-                ans = let[mid];
+            if (nums[mid] > target) {
+                ans = nums[mid];
                 high = mid - 1;
-            }else{
+            } else {
                 low = mid + 1;
             }
         }
-
         return ans;
     }
 };
