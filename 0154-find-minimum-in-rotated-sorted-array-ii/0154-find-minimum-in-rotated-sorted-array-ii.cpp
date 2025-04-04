@@ -1,10 +1,15 @@
 class Solution {
 
-    int findPivot(vector<int>nums,int low, int high) {
+    int findMini(vector<int>&nums){
 
-        while(low < high){
+        int n = nums.size();
 
-            while(low < high  && nums[low] == nums[low+1]){
+        int low = 0;
+        int high = n-1;
+
+        while(low<high){
+
+            while(low < high && nums[low] == nums[low+1]){
                 low++;
             }
 
@@ -12,14 +17,13 @@ class Solution {
                 high--;
             }
 
-            int mid = low + (high - low)/2;
+            int mid = low + (high-low)/2;
 
             if(nums[mid]>nums[high]){
-                low = mid + 1;
+                low = mid+1;
             }else{
                 high = mid;
             }
-
         }
 
         return high;
@@ -28,11 +32,7 @@ public:
     int findMin(vector<int>& nums) {
         int n = nums.size();
 
-        int low = 0;
-        int high = n-1;
-
-
-        int pivot = findPivot(nums,low,high);
+        int pivot = findMini(nums);
 
         return nums[pivot];
     }
