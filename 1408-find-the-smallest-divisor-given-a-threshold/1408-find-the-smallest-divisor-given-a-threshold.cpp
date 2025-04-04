@@ -1,33 +1,44 @@
 class Solution {
-    bool getSum(vector<int>& nums, int mid, int threshold) {
-        long long sum = 0;
 
-        for (int i = 0; i < nums.size(); i++) {
-            // Use integer arithmetic for ceiling
-            long long div = (nums[i] + mid - 1) / mid;
+    bool Find(vector<int>& nums, int mid, int n, int thresh) {
+
+        int sum = 0;
+        ;
+
+        for (int i = 0; i < n; i++) {
+
+            int div = (nums[i] + mid - 1) / mid;
+
             sum += div;
-        }
 
-        return sum <= threshold;
+            if (sum > thresh)
+                return false;
+        }
+        return sum<=thresh;
     }
 
 public:
-    int smallestDivisor(vector<int>& nums, int threshold) {
+    int smallestDivisor(vector<int>& nums, int thresh) {
+
+        int n = nums.size();
+
         int low = 1;
-        int high = *max_element(nums.begin(), nums.end()); // Max element as the upper bound
-        int result = high;
+        int high = *max_element(nums.begin(), nums.end());
+        int ans = 0;
 
         while (low <= high) {
+
             int mid = low + (high - low) / 2;
 
-            if (getSum(nums, mid, threshold)) {
-                result = mid;
+            if (Find(nums, mid, n, thresh)) {
+
+                ans = mid;
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
 
-        return result;
+        return ans;
     }
 };
