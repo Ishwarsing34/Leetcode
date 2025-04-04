@@ -1,49 +1,54 @@
 class Solution {
-    bool isPossible(vector<int>&weights, int days, int mid){
+    int isPossible(vector<int>&weights,int mid, int days,int n){
 
-       int cnt = 1,sum = 0;
+        int minDays = 1;
+        int sum = 0;
 
-       for(int i=0;i<weights.size();i++){
+        for(int i=0;i<n;i++){
+
             sum+=weights[i];
 
             if(sum>mid){
-                cnt++;
-                sum = weights[i];
+                minDays++;
+                sum=weights[i];
             }
-       }
+        }
 
-       if(cnt <= days) return true;
-    
-       return false;
+        if(minDays<=days){
+            return true;
+        }
+
+        return false;
     }
 public:
     int shipWithinDays(vector<int>& weights, int days) {
-        int maxCap = 0;
-
         int n = weights.size();
 
-        for(int i=0;i<n;i++)
-        {
+        int maxCap = 0;
+        int result = 0;
+
+        int ans = 0 ;
+
+        for(int i=0;i<n;i++){
             maxCap += weights[i];
         }
 
         int low = *max_element(weights.begin(),weights.end());
         int high = maxCap;
-        int result = 0;
-
 
         while(low<=high){
-             
-            int mid = low + (high - low ) / 2;
 
-            if(isPossible(weights,days,mid)){
-                result = mid;
+            int mid = low + (high-low)/2;
+
+            if(isPossible(weights,mid,days,n)){
+                ans = mid;
                 high = mid - 1;
             }else{
                 low = mid + 1;
             }
         }
 
-        return result;
+        return ans;
+    
     }
 };
