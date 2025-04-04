@@ -1,4 +1,5 @@
 class Solution {
+
     int findMin(vector<int>& nums) {
 
         int n = nums.size();
@@ -16,27 +17,27 @@ class Solution {
                 high = mid;
             }
         }
-
         return high;
     }
 
     int BinarySearch(int l, int r, vector<int>& nums, int target) {
 
+        int low = l;
+        int high = r;
+
         int ind = -1;
 
-        while (l <= r) {
+        while (low <= high) {
 
-            int mid = l + (r - l) / 2;
+            int mid = low + (high - low) / 2;
 
             if (nums[mid] == target) {
                 ind = mid;
                 break;
-            } else if (nums[mid] > target) {
-                r = mid - 1;
-            }
-
-            else {
-                l = mid + 1;
+            } else if (nums[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
         }
 
@@ -45,18 +46,19 @@ class Solution {
 
 public:
     int search(vector<int>& nums, int target) {
+
+        int pivotInd = findMin(nums);
+
         int n = nums.size();
 
         int idx = -1;
 
-        int pivotIdx = findMin(nums);
-
-         idx = BinarySearch(0, pivotIdx - 1, nums, target);
+        idx = BinarySearch(0, pivotInd - 1, nums, target);
 
         if (idx != -1)
             return idx;
 
-         idx = BinarySearch(pivotIdx, n - 1, nums, target);
+        idx = BinarySearch(pivotInd, n - 1, nums, target);
 
         return idx;
     }
