@@ -6,22 +6,31 @@ public:
         int low = 0;
         int high = n - 1;
         int ans = INT_MAX;
-         if(nums.size() == 1) return nums[0];
-        if(nums[0]<nums[high]) return nums[0];
 
-        while (low < high) {
+        if(nums.size() == 1) return nums[0];
 
-            int mid = low + (high - low) / 2;
-
-           if(nums[mid]>nums[high]){
-                low = mid+1;
-           }else{
-               
-               high = mid;
-           }
-            
+        if (nums[0] < nums[high]){
+           return nums[0];
         }
 
-        return nums[high];
+
+        while(low<high){
+
+            int mid = low + (high-low)/2;
+
+            if(nums[mid]>nums[high]){
+                low = mid+1;
+            }else{
+                high = mid;
+            }
+        }
+
+        return nums[low];
+            
+
+
+
+
+        
     }
 };
