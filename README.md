@@ -843,4 +843,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Ishwarsing34/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/Ishwarsing34/Leetcode/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
