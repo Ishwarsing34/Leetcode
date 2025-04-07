@@ -6,35 +6,39 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
-    int height(TreeNode* root){
+    pair<bool, int> diameter(TreeNode* root) {
 
-        if(root == nullptr) return 0;
+        if (root == NULL) {
 
+            return {true, 0};
+        }
 
-        int left = height(root->left);
-        int right = height(root->right);
+        pair<bool, int> left = diameter(root->left);
+        pair<bool, int> right = diameter(root->right);
 
-        int ans = max(left,right);
+        bool leftAns = left.first;
+        bool rightAns = right.first;
 
-        return ans+1;
+        bool diff = abs(left.second - right.second) <= 1;
+
+        pair<bool, int> ans;
+
+        ans.second = max(left.second, right.second) + 1;
+
+        if (leftAns && rightAns && diff) {
+            ans.first = true;
+        } else {
+            ans.first = false;
+        }
+
+        return ans;
     }
+
 public:
-    bool isBalanced(TreeNode* root) {
-        
-
-        if(root == nullptr) return true;
-
-
-        bool left = isBalanced(root->left);
-        bool right = isBalanced(root->right);
-
-        bool diff = abs(height(root->right) - height(root->left)) <= 1;
-
-        if(left && right && diff) return 1;
-        else return false;
-    }
+    bool isBalanced(TreeNode* root) { return diameter(root).first; }
 };
