@@ -201,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Ishwarsing34/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 | [3429-special-array-i](https://github.com/Ishwarsing34/Leetcode/tree/master/3429-special-array-i) |
 | [3483-alternating-groups-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3483-alternating-groups-ii) |
+| [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Ishwarsing34/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Ishwarsing34/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Ishwarsing34/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## String
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3405-count-the-number-of-special-characters-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3405-count-the-number-of-special-characters-ii) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Ishwarsing34/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
+| [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Ishwarsing34/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Ishwarsing34/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Counting
 |  |
