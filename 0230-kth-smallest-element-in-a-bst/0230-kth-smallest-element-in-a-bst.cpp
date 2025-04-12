@@ -23,7 +23,7 @@ class Solution {
         if(i==k) return root->val;
 
 
-        return solve(root->right,i,k);
+        return  solve(root->right,i,k);
 
 
     }
