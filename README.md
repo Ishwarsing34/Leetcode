@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/Ishwarsing34/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1585-the-kth-factor-of-n](https://github.com/Ishwarsing34/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Ishwarsing34/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -875,4 +876,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1656-count-good-triplets](https://github.com/Ishwarsing34/Leetcode/tree/master/1656-count-good-triplets) |
+## Number Theory
+|  |
+| ------- |
+| [1585-the-kth-factor-of-n](https://github.com/Ishwarsing34/Leetcode/tree/master/1585-the-kth-factor-of-n) |
 <!---LeetCode Topics End-->
