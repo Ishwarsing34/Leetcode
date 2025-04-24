@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Ishwarsing34/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2751-sliding-subarray-beauty](https://github.com/Ishwarsing34/Leetcode/tree/master/2751-sliding-subarray-beauty) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Ishwarsing34/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3206-find-common-elements-between-two-arrays](https://github.com/Ishwarsing34/Leetcode/tree/master/3206-find-common-elements-between-two-arrays) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -442,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Ishwarsing34/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2751-sliding-subarray-beauty](https://github.com/Ishwarsing34/Leetcode/tree/master/2751-sliding-subarray-beauty) |
 | [2755-extra-characters-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2755-extra-characters-in-a-string) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3206-find-common-elements-between-two-arrays](https://github.com/Ishwarsing34/Leetcode/tree/master/3206-find-common-elements-between-two-arrays) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3405-count-the-number-of-special-characters-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3405-count-the-number-of-special-characters-ii) |
@@ -693,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Ishwarsing34/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2751-sliding-subarray-beauty](https://github.com/Ishwarsing34/Leetcode/tree/master/2751-sliding-subarray-beauty) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3483-alternating-groups-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Simulation
 |  |
