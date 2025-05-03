@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Ishwarsing34/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1386-shift-2d-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/1386-shift-2d-grid) |
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Ishwarsing34/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Ishwarsing34/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -724,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Ishwarsing34/Leetcode/tree/master/0735-asteroid-collision) |
+| [1386-shift-2d-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/1386-shift-2d-grid) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ishwarsing34/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Ishwarsing34/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
@@ -863,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Ishwarsing34/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0854-making-a-large-island](https://github.com/Ishwarsing34/Leetcode/tree/master/0854-making-a-large-island) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Ishwarsing34/Leetcode/tree/master/1253-sort-the-matrix-diagonally) |
+| [1386-shift-2d-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/1386-shift-2d-grid) |
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
