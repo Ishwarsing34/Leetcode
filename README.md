@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Ishwarsing34/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Ishwarsing34/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
+| [3215-matrix-similarity-after-cyclic-shifts](https://github.com/Ishwarsing34/Leetcode/tree/master/3215-matrix-similarity-after-cyclic-shifts) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Ishwarsing34/Leetcode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Recursion
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Ishwarsing34/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3206-find-common-elements-between-two-arrays](https://github.com/Ishwarsing34/Leetcode/tree/master/3206-find-common-elements-between-two-arrays) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Ishwarsing34/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3215-matrix-similarity-after-cyclic-shifts](https://github.com/Ishwarsing34/Leetcode/tree/master/3215-matrix-similarity-after-cyclic-shifts) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3330-modify-the-matrix](https://github.com/Ishwarsing34/Leetcode/tree/master/3330-modify-the-matrix) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Ishwarsing34/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -733,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
 | [2551-apply-operations-to-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Ishwarsing34/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3215-matrix-similarity-after-cyclic-shifts](https://github.com/Ishwarsing34/Leetcode/tree/master/3215-matrix-similarity-after-cyclic-shifts) |
 ## Merge Sort
 |  |
 | ------- |
@@ -869,6 +872,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [3215-matrix-similarity-after-cyclic-shifts](https://github.com/Ishwarsing34/Leetcode/tree/master/3215-matrix-similarity-after-cyclic-shifts) |
 | [3330-modify-the-matrix](https://github.com/Ishwarsing34/Leetcode/tree/master/3330-modify-the-matrix) |
 ## Graph
 |  |
