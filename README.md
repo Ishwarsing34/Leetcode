@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Ishwarsing34/Leetcode/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/Ishwarsing34/Leetcode/tree/master/0029-divide-two-integers) |
+| [0048-rotate-image](https://github.com/Ishwarsing34/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Ishwarsing34/Leetcode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/Ishwarsing34/Leetcode/tree/master/0069-sqrtx) |
 | [0231-power-of-two](https://github.com/Ishwarsing34/Leetcode/tree/master/0231-power-of-two) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Ishwarsing34/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Ishwarsing34/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0047-permutations-ii) |
+| [0048-rotate-image](https://github.com/Ishwarsing34/Leetcode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Ishwarsing34/Leetcode/tree/master/0051-n-queens) |
 | [0073-set-matrix-zeroes](https://github.com/Ishwarsing34/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Ishwarsing34/Leetcode/tree/master/0078-subsets) |
@@ -867,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Ishwarsing34/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Ishwarsing34/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0854-making-a-large-island](https://github.com/Ishwarsing34/Leetcode/tree/master/0854-making-a-large-island) |
 | [0898-transpose-matrix](https://github.com/Ishwarsing34/Leetcode/tree/master/0898-transpose-matrix) |
