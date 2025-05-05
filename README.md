@@ -350,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0494-target-sum) |
 | [0526-beautiful-arrangement](https://github.com/Ishwarsing34/Leetcode/tree/master/0526-beautiful-arrangement) |
+| [0806-domino-and-tromino-tiling](https://github.com/Ishwarsing34/Leetcode/tree/master/0806-domino-and-tromino-tiling) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Ishwarsing34/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0943-sum-of-subarray-minimums](https://github.com/Ishwarsing34/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
