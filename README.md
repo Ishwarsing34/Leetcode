@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1013-fibonacci-number](https://github.com/Ishwarsing34/Leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/Ishwarsing34/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1094-matrix-cells-in-distance-order](https://github.com/Ishwarsing34/Leetcode/tree/master/1094-matrix-cells-in-distance-order) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Ishwarsing34/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/Ishwarsing34/Leetcode/tree/master/1500-count-largest-group) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Ishwarsing34/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1094-matrix-cells-in-distance-order](https://github.com/Ishwarsing34/Leetcode/tree/master/1094-matrix-cells-in-distance-order) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Ishwarsing34/Leetcode/tree/master/1253-sort-the-matrix-diagonally) |
 | [1256-rank-transform-of-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Ishwarsing34/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Ishwarsing34/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1014-k-closest-points-to-origin](https://github.com/Ishwarsing34/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1094-matrix-cells-in-distance-order](https://github.com/Ishwarsing34/Leetcode/tree/master/1094-matrix-cells-in-distance-order) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Ishwarsing34/Leetcode/tree/master/1253-sort-the-matrix-diagonally) |
 | [1256-rank-transform-of-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Ishwarsing34/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
@@ -878,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Ishwarsing34/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0854-making-a-large-island](https://github.com/Ishwarsing34/Leetcode/tree/master/0854-making-a-large-island) |
 | [0898-transpose-matrix](https://github.com/Ishwarsing34/Leetcode/tree/master/0898-transpose-matrix) |
+| [1094-matrix-cells-in-distance-order](https://github.com/Ishwarsing34/Leetcode/tree/master/1094-matrix-cells-in-distance-order) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Ishwarsing34/Leetcode/tree/master/1253-sort-the-matrix-diagonally) |
 | [1386-shift-2d-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/1386-shift-2d-grid) |
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -924,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Ishwarsing34/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1094-matrix-cells-in-distance-order](https://github.com/Ishwarsing34/Leetcode/tree/master/1094-matrix-cells-in-distance-order) |
 ## Database
 |  |
 | ------- |
