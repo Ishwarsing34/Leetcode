@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3429-special-array-i](https://github.com/Ishwarsing34/Leetcode/tree/master/3429-special-array-i) |
 | [3483-alternating-groups-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Ishwarsing34/Leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Ishwarsing34/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Ishwarsing34/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Ishwarsing34/Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
@@ -785,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ishwarsing34/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2681-put-marbles-in-bags](https://github.com/Ishwarsing34/Leetcode/tree/master/2681-put-marbles-in-bags) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -894,11 +896,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [3215-matrix-similarity-after-cyclic-shifts](https://github.com/Ishwarsing34/Leetcode/tree/master/3215-matrix-similarity-after-cyclic-shifts) |
 | [3330-modify-the-matrix](https://github.com/Ishwarsing34/Leetcode/tree/master/3330-modify-the-matrix) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Graph
 |  |
 | ------- |
 | [0684-redundant-connection](https://github.com/Ishwarsing34/Leetcode/tree/master/0684-redundant-connection) |
 | [2793-count-the-number-of-complete-components](https://github.com/Ishwarsing34/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Game Theory
 |  |
 | ------- |
@@ -957,4 +961,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Ishwarsing34/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Shortest Path
+|  |
+| ------- |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 <!---LeetCode Topics End-->
