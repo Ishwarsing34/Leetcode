@@ -275,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Ishwarsing34/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Ishwarsing34/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ishwarsing34/Leetcode/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Ishwarsing34/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2128-reverse-prefix-of-word](https://github.com/Ishwarsing34/Leetcode/tree/master/2128-reverse-prefix-of-word) |
@@ -464,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Ishwarsing34/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Ishwarsing34/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ishwarsing34/Leetcode/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ishwarsing34/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
@@ -494,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Ishwarsing34/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ishwarsing34/Leetcode/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Ishwarsing34/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
