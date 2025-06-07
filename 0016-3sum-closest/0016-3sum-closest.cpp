@@ -14,7 +14,7 @@ public:
 
                 int sum = nums[i] + nums[s] + nums[e];
 
-                if (abs(target - sum) < abs( 1LL *target - closesum)) {
+                if (abs(target - sum) < abs( 1LL * target - closesum)) {
                     closesum = sum;
                 } else if (sum < target)
                     s++;
