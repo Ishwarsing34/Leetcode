@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Ishwarsing34/Leetcode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/Ishwarsing34/Leetcode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/Ishwarsing34/Leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
@@ -445,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Ishwarsing34/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Ishwarsing34/Leetcode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/Ishwarsing34/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
@@ -697,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ishwarsing34/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/Ishwarsing34/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0443-string-compression](https://github.com/Ishwarsing34/Leetcode/tree/master/0443-string-compression) |
