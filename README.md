@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Ishwarsing34/Leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0268-missing-number) |
+| [0319-bulb-switcher](https://github.com/Ishwarsing34/Leetcode/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/Ishwarsing34/Leetcode/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/Ishwarsing34/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0486-predict-the-winner](https://github.com/Ishwarsing34/Leetcode/tree/master/0486-predict-the-winner) |
@@ -992,4 +993,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/Ishwarsing34/Leetcode/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
