@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Ishwarsing34/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1647-can-convert-string-in-k-moves](https://github.com/Ishwarsing34/Leetcode/tree/master/1647-can-convert-string-in-k-moves) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1923-sentence-similarity-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Ishwarsing34/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/Ishwarsing34/Leetcode/tree/master/1500-count-largest-group) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1647-can-convert-string-in-k-moves](https://github.com/Ishwarsing34/Leetcode/tree/master/1647-can-convert-string-in-k-moves) |
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Ishwarsing34/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
