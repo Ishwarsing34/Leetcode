@@ -1,18 +1,22 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
+
         int n = s.size();
 
-        int cnt = t.size();  
+        int cnt = t.size();
 
         map<char, int> mp;
+
         for (auto ch : t) {
             mp[ch]++;
         }
 
-        int i = 0, j = 0;
-        int startInd = 0;
+        int j = 0, i = 0;
+
         int minLen = INT_MAX;
+
+        int startInd = 0;
 
         while (j < n) {
             if (mp.count(s[j])) {
@@ -22,6 +26,7 @@ public:
             }
 
             while (cnt == 0) {
+
                 if (j - i + 1 < minLen) {
                     minLen = j - i + 1;
                     startInd = i;
@@ -32,7 +37,6 @@ public:
                     if (mp[s[i]] > 0)
                         cnt++;
                 }
-
                 i++;
             }
 
