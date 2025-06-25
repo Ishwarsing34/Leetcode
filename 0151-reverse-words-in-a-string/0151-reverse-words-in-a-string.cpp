@@ -3,12 +3,12 @@ public:
     string reverseWords(string s) {
 
         int n = s.size();
-        int i = 0;
-
         string ans = "";
+        int i = 0;
 
         while (i < n) {
             string temp = "";
+
             while (s[i] == ' ' && i < n) {
                 i++;
             }
@@ -26,6 +26,7 @@ public:
                 }
             }
         }
+
         return ans;
     }
 };
