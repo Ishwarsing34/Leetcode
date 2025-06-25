@@ -1,22 +1,21 @@
 class Solution {
 public:
     int maxProfit(vector<int>& p) {
-        
-        int curr_p = p[0];
-        int max_p = 0;
+        int max_p = p[0];
 
-        
-        for(int i=0;i<p.size();i++){
+        int max_prof = 0;
 
-            if(p[i]<curr_p){
-                curr_p = p[i];
+        for(int i=1;i<p.size();i++)
+        {
+            if(p[i] < max_p){
+                max_p = p[i];
             }else{
 
-                int profit =  p[i] - curr_p;
-                max_p = max(profit,max_p);
+                int price = p[i] - max_p;
+                max_prof = max(max_prof,price);
             }
         }
 
-        return max_p;
+        return max_prof;
     }
 };
