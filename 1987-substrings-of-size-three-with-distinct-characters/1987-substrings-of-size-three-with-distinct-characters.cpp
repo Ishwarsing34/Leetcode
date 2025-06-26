@@ -1,25 +1,25 @@
 class Solution {
-    bool check(string s) {
-        set<int> st;
+    bool isgood(string a){
+        if(a.size() < 3) return false;
 
-        if (s.size() < 3)
-            return false;
+        set<int>st;
 
-        for (auto i : s) {
-            st.insert(i);
+        for(int i=0;i<a.size();i++)
+        {
+            st.insert(a[i]);
         }
 
         return st.size() == 3;
     }
-
 public:
     int countGoodSubstrings(string s) {
-
-        int cnt = 0;
+        
         int n = s.size();
+        int cnt = 0;
 
-        for (int i = 0; i <= n - 3; i++) {
-            if (check(s.substr(i, 3))) { 
+        for(int i=0;i<=n-3;i++){
+            
+            if(isgood(s.substr(i,3))){
                 cnt++;
             }
         }
