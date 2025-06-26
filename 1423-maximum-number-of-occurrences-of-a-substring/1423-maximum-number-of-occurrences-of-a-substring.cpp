@@ -18,7 +18,7 @@ public:
         map<string, int> mp;
 
         int maxx = 0;
-        for (int i = 0; i < n - minSize + 1; i++) {
+        for (int i = 0; i <= n - minSize; i++) {
 
             string cur = s.substr(i, minSize);
 
