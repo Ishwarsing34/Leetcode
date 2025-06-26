@@ -1,41 +1,40 @@
 class Solution {
-    bool allzeros(vector<int>&cnt)
-    {
-        for(auto i:cnt)
-        {
-            if(i != 0) return  false;
+    bool isallzeros(vector<int>& cnt) {
+
+        for (int i = 0; i < 26; i++) {
+            if (cnt[i] != 0)
+                return false;
         }
 
         return true;
     }
+
 public:
     vector<int> findAnagrams(string s, string p) {
+
         int n = s.size();
-
-        vector<int>cnt(26,0);
-        vector<int>ans;
-
         int k = p.size();
 
-        for(int i=0;i<k;i++)
-        {
-            cnt[p[i]-'a']++;
+        vector<int> ans;
+
+        vector<int> cnt(26, 0);
+
+        for (int i = 0; i < k; i++) {
+            cnt[p[i] - 'a']++;
         }
 
+        int j = 0, i = 0;
 
-        int i = 0, j = 0;
+        while (j < n) {
 
-        while(j < n)
-        {
-            cnt[s[j]-'a']--;
+            cnt[s[j] - 'a']--;
 
-            if(j-i+1 == k){
+            while (j - i + 1 == k) {
 
-                if(allzeros(cnt)){
+                if (isallzeros(cnt)) {
                     ans.push_back(i);
                 }
-
-                cnt[s[i]-'a']++;
+                cnt[s[i] - 'a']++;
                 i++;
             }
 
