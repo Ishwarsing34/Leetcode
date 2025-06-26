@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Ishwarsing34/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Ishwarsing34/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/Ishwarsing34/Leetcode/tree/master/0792-binary-search) |
+| [0841-shortest-distance-to-a-character](https://github.com/Ishwarsing34/Leetcode/tree/master/0841-shortest-distance-to-a-character) |
 | [0854-making-a-large-island](https://github.com/Ishwarsing34/Leetcode/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/Ishwarsing34/Leetcode/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Ishwarsing34/Leetcode/tree/master/0860-design-circular-queue) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/Ishwarsing34/Leetcode/tree/master/0768-partition-labels) |
 | [0800-letter-case-permutation](https://github.com/Ishwarsing34/Leetcode/tree/master/0800-letter-case-permutation) |
+| [0841-shortest-distance-to-a-character](https://github.com/Ishwarsing34/Leetcode/tree/master/0841-shortest-distance-to-a-character) |
 | [0886-score-of-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0886-score-of-parentheses) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ishwarsing34/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0979-di-string-match](https://github.com/Ishwarsing34/Leetcode/tree/master/0979-di-string-match) |
@@ -737,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/Ishwarsing34/Leetcode/tree/master/0768-partition-labels) |
+| [0841-shortest-distance-to-a-character](https://github.com/Ishwarsing34/Leetcode/tree/master/0841-shortest-distance-to-a-character) |
 | [0908-middle-of-the-linked-list](https://github.com/Ishwarsing34/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0979-di-string-match](https://github.com/Ishwarsing34/Leetcode/tree/master/0979-di-string-match) |
 | [1894-merge-strings-alternately](https://github.com/Ishwarsing34/Leetcode/tree/master/1894-merge-strings-alternately) |
