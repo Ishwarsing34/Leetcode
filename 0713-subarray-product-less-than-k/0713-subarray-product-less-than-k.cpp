@@ -12,7 +12,7 @@ public:
             product *= nums[right];
 
             while (product >= k) {
-                product = product/nums[left];
+                product = product/nums[left]; // to remove the product
                 left++;
             }
 
