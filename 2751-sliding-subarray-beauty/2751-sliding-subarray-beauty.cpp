@@ -1,10 +1,9 @@
 class Solution {
-    int find(map<int, int> &mp, int x) {
-
-        int cnt = 0, ans = 0;
+    int findxth(map<int, int>& mp, int x) {
+        int cnt = 0;
+        int ans = 0;
 
         for (auto i : mp) {
-
             cnt += i.second;
 
             if (cnt >= x) {
@@ -17,33 +16,31 @@ class Solution {
     }
 
 public:
-    vector<int> getSubarrayBeauty(vector<int>& nums, int k, int x) {
-        int n = nums.size();
+    vector<int> getSubarrayBeauty(vector<int>& s, int k, int x) {
+
         map<int, int> mp;
-        vector<int> res;
+
+        int n = s.size();
 
         int i = 0, j = 0;
+        vector<int>res;
 
         while (j < n) {
+            if (s[j] < 0) mp[s[j]]++;
 
-            if (nums[j] < 0) {
-                mp[nums[j]]++;
-            }
-
-            if(j - i + 1 == k) {
-
-                int el = find(mp, x);
+            while (j - i + 1 == k) {
+                int el = findxth(mp, x);
                 res.push_back(el);
-
-                mp[nums[i]]--;
-                if (mp[nums[i]] == 0) {
-                    mp.erase(nums[i]);
+                mp[s[i]]--;
+                if (mp[s[i]] == 0) {
+                    mp.erase(mp[s[i]]);
                 }
                 i++;
             }
 
             j++;
         }
+
         return res;
     }
 };
