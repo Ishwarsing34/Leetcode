@@ -8,23 +8,29 @@
  */
 class Solution {
 public:
-    ListNode* detectCycle(ListNode* head) {
+    ListNode *detectCycle(ListNode *head) {
+        ListNode* fast = head;
+        ListNode* slow = head;
 
-        ListNode* temp = head;
+        while(fast!=NULL && fast->next!=NULL)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
 
-        map<ListNode*, int> mp;
+            if(slow == fast)
+            {
+                slow = head;
+                while(slow != fast)
+                {
+                    slow = slow->next;
+                    fast = fast->next;
+                }
 
-        while (temp != NULL) {
-
-            if (mp.find(temp) != mp.end()) {
-                return temp;
+                return slow;
             }
-
-            mp[temp]++;
-
-            temp = temp->next;
         }
 
         return nullptr;
+    
     }
 };
