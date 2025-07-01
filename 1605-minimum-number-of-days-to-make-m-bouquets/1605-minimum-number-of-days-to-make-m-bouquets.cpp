@@ -1,44 +1,41 @@
 class Solution {
+    bool isPossible(vector<int>& bloom, int mid, int k, int m) {
+        int consec_cnt = 0;
+        int bq_cnt = 0;
 
-    int canMake(vector<int>& bloomDay, int mid, int k) {
-        int bouque_count = 0;
-        int consecutive_cnt = 0;
+        for (int i = 0; i < bloom.size(); i++) {
+            if (bloom[i] <= mid)
+                consec_cnt++;
+            else
+                consec_cnt = 0;
 
-        for (int i = 0; i < bloomDay.size(); i++) {
-            if (bloomDay[i] <= mid) {
-                consecutive_cnt++;
-            } else {
-                consecutive_cnt = 0;
-            }
-
-            if (consecutive_cnt == k) {
-                bouque_count++;
-                consecutive_cnt = 0;
+            if (consec_cnt == k) {
+                bq_cnt++;
+                consec_cnt = 0;
             }
         }
-
-        return bouque_count;
+        return bq_cnt >= m;
     }
 
 public:
-    int minDays(vector<int>& bloomDay, int m, int k) {
+    int minDays(vector<int>& bloom, int m, int k) {
 
-        int start = 0;
-        int end_day = *max_element(begin(bloomDay), end(bloomDay));
-        int minDays = -1;
+        int start = 1;
+        int end = *max_element(bloom.begin(), bloom.end());
 
-        while (start <= end_day) {
-            int mid = start + (end_day - start) / 2;
+        int min_days = -1;
 
-            if (canMake(bloomDay, mid, k) >= m) {
-                minDays = mid;
-                end_day = mid - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
 
+            if (isPossible(bloom, mid, k, m)) {
+                min_days = mid;
+                end = mid - 1;
             } else {
                 start = mid + 1;
             }
         }
 
-        return minDays;
+        return min_days;
     }
 };
