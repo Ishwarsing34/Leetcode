@@ -21,6 +21,6 @@ public:
             }
         }
 
-        return index;
+        return high;
     }
 };
