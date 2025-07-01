@@ -57,6 +57,8 @@ public:
 
         idx = search(0,pivot-1,nums,target);
 
+        if(idx != -1) return true;
+
         idx = search(pivot,n-1,nums,target);
 
         return idx == -1 ? false : true;
