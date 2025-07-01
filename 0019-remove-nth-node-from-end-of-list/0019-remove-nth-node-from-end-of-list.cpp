@@ -21,15 +21,14 @@ public:
 
         ListNode* slow = head;
         if (fast == NULL) {
-            ListNode* newone = head;
-            delete newone;
+
             return head->next;
         }
 
         while (fast->next != NULL) {
 
-            slow = slow->next;
             fast = fast->next;
+            slow = slow->next;
         }
 
         ListNode* delNode = slow->next;
