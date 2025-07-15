@@ -5,12 +5,11 @@ public:
 
         unordered_map<char, int> mp;
 
-        int i = 0, j = 0;
-
         int maxi = 0;
 
-        while (j < n) {
+        int i = 0, j = 0;
 
+        while (j < n) {
             mp[s[j] - 'a']++;
 
             while (mp[s[j] - 'a'] > 1) {
