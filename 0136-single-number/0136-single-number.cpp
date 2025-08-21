@@ -1,14 +1,19 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int XOR=0;
+        int n = nums.size();
 
-        for(int i=0;i<nums.size();i++)
-        {
-            
-            XOR^=nums[i];
+        map<int,int>mp;
+
+
+        for(auto i:nums){
+            mp[i]++;
         }
 
-        return XOR;
+        for(auto i:mp){
+            if(i.second == 1) return i.first;
+        }
+
+        return -1;
     }
 };
