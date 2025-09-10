@@ -1,36 +1,40 @@
-#include <vector>
-#include <unordered_map>
-using namespace std;
-
 class Solution {
 public:
     int minSubarray(vector<int>& nums, int p) {
-        long totalSum = 0;
-        for (int num : nums) {
-            totalSum += num;
+
+        int n = nums.size();
+
+        unordered_map<int, int> mp;
+        long long totalsum = 0;
+
+        for (int n : nums) {
+            totalsum += n;
         }
 
-        // Find the remainder when total sum is divided by p
-        int rem = totalSum % p;
-        if (rem == 0) return 0; // If the remainder is 0, no subarray needs to be removed
+        int rem = totalsum % p;
 
-        unordered_map<int, int> prefixMod;
-        prefixMod[0] = -1;  // Initialize for handling full prefix
-        long prefixSum = 0;
-        int minLength = nums.size();
+        int minlen = nums.size();
 
-        for (int i = 0; i < nums.size(); ++i) {
-            prefixSum += nums[i];
-            int currentMod = prefixSum % p;
-            int targetMod = (currentMod - rem + p) % p;
+        if (rem == 0)
+            return 0;
 
-            if (prefixMod.find(targetMod) != prefixMod.end()) {
-                minLength = min(minLength, i - prefixMod[targetMod]);
+        mp[0] = -1;
+
+        long long prefsum = 0;
+
+        for (int i = 0; i < n; i++) {
+            prefsum += nums[i];
+
+            int curr_mod = prefsum % p;
+            int target_mod = (curr_mod - rem + p) % p;
+
+            if (mp.find(target_mod) != mp.end()) {
+                minlen = min(minlen, i - mp[target_mod]);
             }
 
-            prefixMod[currentMod] = i;
+            mp[curr_mod] = i;
         }
 
-        return minLength == nums.size() ? -1 : minLength;
+        return minlen == nums.size() ? -1 : minlen;
     }
 };
