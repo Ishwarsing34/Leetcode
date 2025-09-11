@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2262-solving-questions-with-brainpower](https://github.com/Ishwarsing34/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Ishwarsing34/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Ishwarsing34/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2290-removing-minimum-number-of-magic-beans](https://github.com/Ishwarsing34/Leetcode/tree/master/2290-removing-minimum-number-of-magic-beans) |
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Ishwarsing34/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Ishwarsing34/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Ishwarsing34/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2290-removing-minimum-number-of-magic-beans](https://github.com/Ishwarsing34/Leetcode/tree/master/2290-removing-minimum-number-of-magic-beans) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Ishwarsing34/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -377,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Ishwarsing34/Leetcode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Ishwarsing34/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Ishwarsing34/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2290-removing-minimum-number-of-magic-beans](https://github.com/Ishwarsing34/Leetcode/tree/master/2290-removing-minimum-number-of-magic-beans) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ishwarsing34/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -639,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/Ishwarsing34/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [2249-count-the-hidden-sequences](https://github.com/Ishwarsing34/Leetcode/tree/master/2249-count-the-hidden-sequences) |
+| [2290-removing-minimum-number-of-magic-beans](https://github.com/Ishwarsing34/Leetcode/tree/master/2290-removing-minimum-number-of-magic-beans) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ishwarsing34/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/Ishwarsing34/Leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
@@ -1030,6 +1034,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1656-count-good-triplets](https://github.com/Ishwarsing34/Leetcode/tree/master/1656-count-good-triplets) |
+| [2290-removing-minimum-number-of-magic-beans](https://github.com/Ishwarsing34/Leetcode/tree/master/2290-removing-minimum-number-of-magic-beans) |
 ## Number Theory
 |  |
 | ------- |
