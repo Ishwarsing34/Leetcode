@@ -8,7 +8,7 @@ public:
         for (string& w : words2) {
             vector<int> freq(26, 0);
 
-                for (auto c : w) {
+            for (auto c : w) {
                 freq[c - 'a']++;
             }
 
