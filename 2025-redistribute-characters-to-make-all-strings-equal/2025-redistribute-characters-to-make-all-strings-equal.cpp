@@ -1,27 +1,28 @@
 class Solution {
 public:
     bool makeEqual(vector<string>& words) {
+         int n = words.size();
 
-        int n = words.size();
+         unordered_map<char,int>mp;
 
-        map<int, int> mp;
 
-        for (string word : words) {
+         for(int i=0;i<n;i++)
+         {
+            int m = words[i].size();
 
-            for (char ch : word) {
-
-                mp[ch]++;
+            for(int j=0;j<m;j++)
+            {
+                mp[words[i][j]]++;
             }
-        }
+         }
 
-        for (string word : words) {
-            for (char ch : word) {
 
-                if (mp[ch] % n != 0)
-                    return false;
-            }
-        }
+         
+         for(auto it:mp)
+         {
+               if(it.second % n != 0) return false;
+         }
 
-        return true;
+         return true;
     }
 };
