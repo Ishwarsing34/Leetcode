@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2249-count-the-hidden-sequences](https://github.com/Ishwarsing34/Leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2262-solving-questions-with-brainpower](https://github.com/Ishwarsing34/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Ishwarsing34/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Ishwarsing34/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2290-removing-minimum-number-of-magic-beans](https://github.com/Ishwarsing34/Leetcode/tree/master/2290-removing-minimum-number-of-magic-beans) |
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Ishwarsing34/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ishwarsing34/Leetcode/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ishwarsing34/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2388-replace-elements-in-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2388-replace-elements-in-an-array) |
 | [2406-decode-the-message](https://github.com/Ishwarsing34/Leetcode/tree/master/2406-decode-the-message) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Ishwarsing34/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -550,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Ishwarsing34/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ishwarsing34/Leetcode/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/Ishwarsing34/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Ishwarsing34/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Binary Search
