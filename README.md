@@ -300,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Ishwarsing34/Leetcode/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1472-increasing-decreasing-string](https://github.com/Ishwarsing34/Leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Ishwarsing34/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1647-can-convert-string-in-k-moves](https://github.com/Ishwarsing34/Leetcode/tree/master/1647-can-convert-string-in-k-moves) |
@@ -509,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/Ishwarsing34/Leetcode/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Ishwarsing34/Leetcode/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1472-increasing-decreasing-string](https://github.com/Ishwarsing34/Leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1500-count-largest-group](https://github.com/Ishwarsing34/Leetcode/tree/master/1500-count-largest-group) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -547,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Ishwarsing34/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Ishwarsing34/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1396-count-servers-that-communicate](https://github.com/Ishwarsing34/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1472-increasing-decreasing-string](https://github.com/Ishwarsing34/Leetcode/tree/master/1472-increasing-decreasing-string) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Ishwarsing34/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Ishwarsing34/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
