@@ -15,22 +15,25 @@ private:
             }
         }
 
-        while (i <= mid)
+        while (i <= mid) {
             temp.push_back(nums[i++]);
-        while (j <= high)
+        }
+
+        while (j <= high) {
             temp.push_back(nums[j++]);
+        }
 
         int n = temp.size();
 
-        for (int i = 0; i < n; i++) {
-            nums[low + i] = temp[i];
+        for (int k = 0; k < n; k++) {
+            nums[low + k] = temp[k];
         }
     }
-
     void mS(vector<int>& nums, int low, int high) {
+
         if (low >= high)
             return;
-        int mid = (low + high) / 2;
+        int mid = low + (high - low) / 2;
 
         mS(nums, low, mid);
         mS(nums, mid + 1, high);
