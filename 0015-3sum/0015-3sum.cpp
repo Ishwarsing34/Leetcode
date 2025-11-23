@@ -1,34 +1,38 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        
+
         int n = nums.size();
 
         vector<vector<int>>ans;
 
-        sort(nums.begin(),nums.end());
+        sort(nums.begin(), nums.end());
 
-        for(int i=0;i<n;i++)
-        {
-            int a = nums[i];
-            int k  = -a;
+        for (int i = 0; i < n; i++) {
 
-            int s = i+1 , e = n -1;
+            int j = i + 1, k = n - 1;
 
-            while(s < e)
-            {
-                if(nums[s] + nums[e] == k){
-                    ans.push_back({nums[i],nums[s],nums[e]});
+            while (j < k) {
+                int sum = nums[i] + nums[j] + nums[k];
 
-                    while(s < e && nums[s] == nums[s+1]) s++;
-                    while(s < e && nums[e] == nums[e-1]) e--;
+                if (sum == 0) {
+                    ans.push_back({nums[i], nums[j], nums[k]});
+                    while (j < k && nums[k] == nums[k - 1])
+                        k--;
+                    while (j < k && nums[j] == nums[j + 1])
+                        j++;
+                    
+                    j++,k--;
+                } else if (sum < 0) {
+                    j++;
 
-                    s++,e--;
-                }else if(nums[s] + nums[e] < k) s++;
-                else e--;
-            } 
+                } else {
+                    k--;
+                }
+            }
 
-            while(i+1 < n && nums[i] == nums[i+1]) i++;
+            while (i + 1 < n && nums[i] == nums[i + 1])
+                i++;
         }
 
         return ans;
