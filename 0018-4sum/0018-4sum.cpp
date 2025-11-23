@@ -4,12 +4,12 @@ public:
 
         int n = nums.size();
 
-        vector < vector<int>> ans;
+        vector<vector<int>> ans;
 
         sort(nums.begin(), nums.end());
 
-        for (int i = 0; i < n-3; i++) {
-            for (int j = i + 1; j < n-2; j++) {
+        for (int i = 0; i < n - 3; i++) {
+            for (int j = i + 1; j < n - 2; j++) {
 
                 int k = j + 1, l = n - 1;
 
@@ -23,7 +23,7 @@ public:
                             k++;
 
                         while (k < l && nums[l] == nums[l - 1])
-                            l++;
+                            l--;
 
                         k++, l--;
                     } else if (sum < target) {
@@ -40,7 +40,6 @@ public:
             while (i + 1 < n && nums[i] == nums[i + 1])
                 i++;
         }
-
 
         return ans;
     }
