@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Ishwarsing34/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Ishwarsing34/Leetcode/tree/master/0018-4sum) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ishwarsing34/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0022-generate-parentheses) |
@@ -477,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Ishwarsing34/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0386-lexicographical-numbers](https://github.com/Ishwarsing34/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Ishwarsing34/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Ishwarsing34/Leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
