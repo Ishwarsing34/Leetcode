@@ -1,33 +1,30 @@
 class Solution {
+    bool checkPal(string &s, int i, int j) {
+        while (i < j) {
+            if (s[i] != s[j]) return false;
+            i++; j--;
+        }
+        return true;
+    }
+
 public:
     string longestPalindrome(string s) {
-        if (s.empty()) {
-            return "";
-        }
+        int n = s.size();
+        string res = "";
+        int maxLen = 0;
 
-        int start = 0;
-        int end = 0;
-
-        for (int i = 0; i < s.length(); i++) {
-            int odd = expandAroundCenter(s, i, i);
-            int even = expandAroundCenter(s, i, i + 1);
-            int max_len = max(odd, even);
-
-            if (max_len > end - start) {
-                start = i - (max_len - 1) / 2;
-                end = i + max_len / 2;
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                if (checkPal(s, i, j)) {
+                    int len = j - i + 1;
+                    if (len > maxLen) {
+                        maxLen = len;
+                        res = s.substr(i, len);
+                    }
+                }
             }
         }
 
-        return s.substr(start, end - start + 1);        
+        return res;
     }
-
-private:
-    int expandAroundCenter(string s, int left, int right) {
-        while (left >= 0 && right < s.length() && s[left] == s[right]) {
-            left--;
-            right++;
-        }
-        return right - left - 1;
-    }    
 };
