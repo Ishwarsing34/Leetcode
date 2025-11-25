@@ -303,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/Ishwarsing34/Leetcode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ishwarsing34/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0979-di-string-match](https://github.com/Ishwarsing34/Leetcode/tree/master/0979-di-string-match) |
+| [1021-remove-outermost-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -740,6 +741,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/Ishwarsing34/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ishwarsing34/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/Ishwarsing34/Leetcode/tree/master/1002-maximum-width-ramp) |
+| [1021-remove-outermost-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
