@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/Ishwarsing34/Leetcode/tree/master/0649-dota2-senate) |
 | [0680-valid-palindrome-ii](https://github.com/Ishwarsing34/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/Ishwarsing34/Leetcode/tree/master/0768-partition-labels) |
+| [0796-rotate-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0796-rotate-string) |
 | [0800-letter-case-permutation](https://github.com/Ishwarsing34/Leetcode/tree/master/0800-letter-case-permutation) |
 | [0841-shortest-distance-to-a-character](https://github.com/Ishwarsing34/Leetcode/tree/master/0841-shortest-distance-to-a-character) |
 | [0886-score-of-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/0886-score-of-parentheses) |
@@ -452,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0214-shortest-palindrome](https://github.com/Ishwarsing34/Leetcode/tree/master/0214-shortest-palindrome) |
+| [0796-rotate-string](https://github.com/Ishwarsing34/Leetcode/tree/master/0796-rotate-string) |
 ## Hash Function
 |  |
 | ------- |
