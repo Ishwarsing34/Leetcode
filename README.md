@@ -317,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-remove-outermost-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Ishwarsing34/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Ishwarsing34/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Ishwarsing34/Leetcode/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -543,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/Ishwarsing34/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1256-rank-transform-of-an-array](https://github.com/Ishwarsing34/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/Ishwarsing34/Leetcode/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Ishwarsing34/Leetcode/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
@@ -853,6 +855,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/Ishwarsing34/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ishwarsing34/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Ishwarsing34/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Ishwarsing34/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Ishwarsing34/Leetcode/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Ishwarsing34/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
