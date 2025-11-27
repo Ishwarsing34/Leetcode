@@ -1,33 +1,34 @@
 class Solution {
 public:
-    int trap(vector<int>& height) {
-        int n = height.size();
+    int trap(vector<int>& h) {
 
-        int pref[n];
-        int suff[n];
+        int lmaxx = 0, rmaxx = 0;
 
-        pref[0] = height[0];
+        int n = h.size();
 
-        for(int i=1;i<n;i++)
-        {
-            pref[i] = max(height[i],pref[i-1]);
+        int left = 0, right = n - 1;
+
+        int res = 0;
+
+        while (left <= right) {
+
+            if (h[left] <= h[right]) {
+
+                if (h[left] >= lmaxx)
+                    lmaxx = h[left];
+                else
+                    res += lmaxx - h[left];
+                left++;
+            } else {
+
+                if (h[right] >= rmaxx)
+                    rmaxx = h[right];
+                else
+                    res += rmaxx - h[right];
+                right--;
+            }
         }
 
-        suff[n-1] = height[n-1];
-
-        for(int i=n-2;i>=0;i--){
-            suff[i] = max(height[i],suff[i+1]);
-        }
-
-        int trap = 0;
-        
-
-
-        for(int i=0;i<n;i++)
-        {
-            trap += min(pref[i],suff[i])-height[i];
-        }
-        
-        return trap;
+        return res;
     }
 };
