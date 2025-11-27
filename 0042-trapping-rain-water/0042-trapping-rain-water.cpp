@@ -14,14 +14,14 @@ public:
 
             if (h[left] <= h[right]) {
 
-                if (h[left] >= lmaxx)
+                if (h[left] > lmaxx)
                     lmaxx = h[left];
                 else
                     res += lmaxx - h[left];
                 left++;
             } else {
 
-                if (h[right] >= rmaxx)
+                if (h[right] > rmaxx)
                     rmaxx = h[right];
                 else
                     res += rmaxx - h[right];
