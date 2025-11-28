@@ -3,7 +3,6 @@ public:
     string removeKdigits(string num, int k) {
 
         int n = num.size();
-        string res = "";
 
         stack<char> st;
 
@@ -17,23 +16,29 @@ public:
             st.push(num[i]);
         }
 
+        while (k > 0) {
+             k--;
+            st.pop();
+           
+        }
 
-        while(k>0){
-            k--;
+        string res = "";
+
+        while (!st.empty()) {
+            res += st.top();
             st.pop();
         }
 
-        while(!st.empty()){
-            res+=st.top();
-            st.pop();
+        reverse(res.begin(), res.end());
+
+        int i = 0;
+
+        while (res[i] == '0') {
+            i++;
         }
 
-        reverse(res.begin(),res.end());
+        res = res.substr(i);
 
-        while(res.size() > 0 && res[0] == '0'){
-            res.erase(res.begin());
-        }
-
-        return res.size() == 0 ? "0": res;
+        return res.size() == 0 ? "0" : res;
     }
 };
