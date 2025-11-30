@@ -1,66 +1,41 @@
 class Solution {
-
-    int findMin(vector<int>&nums)
-    {
-        int n = nums.size();
-
-        int low = 0 , high = n-1;
-
-        while(low < high)
-        {
-           
-
-            while(low < high && nums[low] == nums[low+1]) low++;
-            while(low < high && nums[high] == nums[high-1]) high--;
-             int mid = low + (high-low)/2;
-
-            if(nums[mid] > nums[high]){
-                low = mid+1;
-            }else{
-                high = mid;
-            }
-        }
-        return high;
-    }
-
-    int search(int l, int r , vector<int>&nums,int target)
-    {
-        int low = l;
-        int high = r;
-        int idx = -1;
-
-        while(low<=high)
-        {
-            int mid = low+(high-low)/2;
-
-            if(nums[mid] == target){
-                idx = mid;
-                break;
-            }else if(nums[mid] < target){
-                low = mid + 1;
-            }else{
-                high = mid - 1;
-            }
-        }
-        return idx;
-    }
 public:
+    bool search(vector<int>& nums, int k) {
 
-    bool search(vector<int>& nums, int target) {
-        
-
-        int pivot = findMin(nums);
-        
         int n = nums.size();
 
-        int idx = -1;
+        int low = 0, high = n - 1;
 
-        idx = search(0,pivot-1,nums,target);
+        while (low <= high) {
+            int mid = (low + high) / 2;
 
-        if(idx != -1) return true;
+            if (nums[mid] == k)
+                return true;
 
-        idx = search(pivot,n-1,nums,target);
+            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
+                low++;
+                high--;
+                continue;
+            }
 
-        return idx == -1 ? false : true;
+            if (nums[low] <= nums[mid]) {
+
+                if (nums[low] <= k && nums[mid] >= k) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
+                }
+            } else {
+
+                if (nums[mid] <= k && nums[high] >= k) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+        }
+
+
+        return false;
     }
 };
