@@ -1,6 +1,7 @@
 class Solution {
     vector<vector<int>> directions{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-    bool find(int i, int j, vector<vector<char>>& board, string& word, int idx,
+
+    bool find(int i, int j, string& word, vector<vector<char>>& board, int idx,
               int n, int m) {
 
         if (idx == word.size())
@@ -16,10 +17,10 @@ class Solution {
         board[i][j] = '$';
 
         for (auto& dir : directions) {
-
             int i_ = i + dir[0];
             int j_ = j + dir[1];
-            if (find(i_, j_, board, word, idx + 1, n, m))
+
+            if (find(i_, j_, word, board, idx + 1, n, m))
                 return true;
         }
 
@@ -37,13 +38,11 @@ public:
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
 
-                if (board[i][j] == word[0] &&
-                    find(i, j, board, word, 0, n, m)) {
+                if (board[i][j] == word[0] && find(i, j, word, board, 0, n, m))
                     return true;
-                }
             }
         }
 
         return false;
-    };
+    }
 };
